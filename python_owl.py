@@ -45,7 +45,7 @@ from Common.ontology_container import OntologyContainer
 
 from owlready2 import *
 
-ontology = OntologyContainer("processes_001_HAP") #'flash_03')
+ontology = OntologyContainer("processes_distributed_001") #'flash_03')
 
 
 variables = ontology.variables
