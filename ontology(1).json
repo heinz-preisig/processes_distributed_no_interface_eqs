@@ -112,8 +112,7 @@
             "lumped"
           ],
           "event": [
-            "lumped",
-            "distributed"
+            "lumped"
           ]
         },
         "token": {
@@ -192,8 +191,7 @@
             "lumped"
           ],
           "event": [
-            "lumped",
-            "distributed"
+            "lumped"
           ]
         },
         "token": {
@@ -270,8 +268,7 @@
             "lumped"
           ],
           "event": [
-            "lumped",
-            "distributed"
+            "lumped"
           ]
         },
         "token": {
@@ -390,8 +387,7 @@
             "lumped"
           ],
           "event": [
-            "lumped",
-            "distributed"
+            "lumped"
           ]
         },
         "token": {
@@ -470,8 +466,7 @@
             "lumped"
           ],
           "event": [
-            "lumped",
-            "distributed"
+            "lumped"
           ]
         },
         "token": {
@@ -778,8 +773,7 @@
             "lumped"
           ],
           "event": [
-            "lumped",
-            "distributed"
+            "lumped"
           ]
         },
         "token": {
@@ -828,8 +822,7 @@
       "node_arc"
     ],
     "normed_network": {
-      "control": true,
-      "macroscopic": false
+      "control": true
     },
     "numerical_value": "value",
     "variable_classes_being_state_variables": [],
