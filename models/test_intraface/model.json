@@ -4,7 +4,8 @@
       "ancestors": [],
       "children": [
         1,
-        2
+        2,
+        3
       ]
     },
     "1": {
@@ -14,6 +15,12 @@
       "children": []
     },
     "2": {
+      "ancestors": [
+        0
+      ],
+      "children": []
+    },
+    "3": {
       "ancestors": [
         0
       ],
@@ -152,6 +159,29 @@
       },
       "injected_typed_tokens": {},
       "mass": []
+    },
+    "3": {
+      "name": "controlledMassFlow",
+      "network": "liquid",
+      "named_network": "A-gas >>> A-liquid",
+      "class": "node_arc",
+      "type": "mass|convection|lumped",
+      "variant": "controlledMassFlow",
+      "instantiated_variables": {},
+      "entity_id": "macroscopic.arc.mass|convection|lumped.controlledMassFlow",
+      "tokens": {
+        "mass": []
+      },
+      "tokens_right": {
+        "mass": []
+      },
+      "tokens_left": {
+        "mass": []
+      },
+      "transfer_constraints": {
+        "mass": []
+      },
+      "mass": []
     }
   },
   "domains": {
@@ -166,7 +196,34 @@
     },
     "signal": {}
   },
-  "arcs": {},
+  "arcs": {
+    "0": {
+      "name": "1 | 3",
+      "source": 1,
+      "sink": 3,
+      "token": "mass",
+      "typed_tokens": [],
+      "network": "gas",
+      "named_network": "A-gas",
+      "mechanism": "convection",
+      "nature": "lumped",
+      "variant": "controlledMassFlow",
+      "instantiated_variables": {}
+    },
+    "1": {
+      "name": "3 | 2",
+      "source": 3,
+      "sink": 2,
+      "token": "mass",
+      "typed_tokens": [],
+      "network": "liquid",
+      "named_network": "A-liquid",
+      "mechanism": "convection",
+      "nature": "lumped",
+      "variant": "controlledMassFlow",
+      "instantiated_variables": {}
+    }
+  },
   "scenes": {
     "0": {
       "nodes": {
@@ -209,17 +266,43 @@
             "position_x": -20,
             "position_y": 0
           }
+        },
+        "3": {
+          "position_x": -40,
+          "position_y": -64,
+          "root": {
+            "position_x": -15,
+            "position_y": -10
+          },
+          "name": {
+            "position_x": 0,
+            "position_y": 50
+          }
         }
       },
-      "arcs": {}
+      "arcs": {
+        "0": [],
+        "1": []
+      }
     },
     "1": {
       "nodes": {},
-      "arcs": {}
+      "arcs": {
+        "0": []
+      }
     },
     "2": {
       "nodes": {},
-      "arcs": {}
+      "arcs": {
+        "1": []
+      }
+    },
+    "3": {
+      "nodes": {},
+      "arcs": {
+        "0": [],
+        "1": []
+      }
     }
   }
 }

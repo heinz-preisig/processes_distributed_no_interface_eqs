@@ -6,7 +6,8 @@
         "modeller_class": "NodeComposite",
         "children_ids": [
             "N_1",
-            "N_2"
+            "N_2",
+            "A_3"
         ]
     },
     "N_1": {
@@ -36,7 +37,9 @@
             "V_202": {},
             "V_203": {}
         },
-        "outgoing_connections": [],
+        "outgoing_connections": [
+            "A_3"
+        ],
         "conversions": {},
         "injected_typed_tokens": null
     },
@@ -61,5 +64,29 @@
         "outgoing_connections": [],
         "conversions": null,
         "injected_typed_tokens": null
+    },
+    "A_3": {
+        "identifier": "A_3",
+        "name": "controlledMassFlow",
+        "parent_id": "N_0",
+        "modeller_class": "Arc",
+        "entity_name": "macroscopic.arc.mass|convection|lumped.controlledMassFlow",
+        "network": "liquid",
+        "named_network": "A-gas >>> A-liquid",
+        "tokens": [
+            "mass"
+        ],
+        "typed_tokens": {
+            "mass": []
+        },
+        "instantiated_variables": {
+            "V_104": {},
+            "V_150": {},
+            "V_183": {},
+            "V_189": {}
+        },
+        "outgoing_connections": [
+            "N_2"
+        ]
     }
 }
