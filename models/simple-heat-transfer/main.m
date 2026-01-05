@@ -15,23 +15,38 @@ function output_vars = main
   indexOrder(4)  = S_lbl;
 
   % Variables
-  % cross sectional area yz
-  Ayz = MultiDimVar({N_lbl}, [2], indexOrder);
-  Ayz(1) = 0.01;
+  % incidence matrix
+  F = MultiDimVar({N_lbl, A_lbl}, [2,1], indexOrder);
+  F(1,1) = -1;
+  F(2,1) = 1;
+
+
+  % accumulation of enthalpy due to diffusional mass flow in z-direction
+  aHnd_z = MultiDimVar({N_lbl}, [2], indexOrder);
+  aHnd_z(2) = 0;
+
+
+  % end time
+  te = MultiDimVar({}, [1], indexOrder);
+  te(1) = 100;
+
+
+  % thermal conductivity in arc and x-direction
+  kqA_x = MultiDimVar({A_lbl}, [1], indexOrder);
+  kqA_x(1) = 2;
 
 
   % Enthalpy
   H = MultiDimVar({N_lbl}, [2], indexOrder);
 
 
-  % accumulation of enthalpy due to diffusional mass flow in y-direction
-  aHnd_y = MultiDimVar({N_lbl}, [2], indexOrder);
-  aHnd_y(2) = 0;
+  % accumulation due to heat flow in z-direction
+  aq_z = MultiDimVar({N_lbl}, [2], indexOrder);
+  aq_z(2) = 0;
 
 
-  % reference temperature
-  T_ref = MultiDimVar({N_lbl}, [2], indexOrder);
-  T_ref(2) = 22;
+  % fundamental state -- internal entropy
+  S = MultiDimVar({N_lbl}, [2], indexOrder);
 
 
   % temperature
@@ -44,19 +59,50 @@ function output_vars = main
   aq_y(2) = 0;
 
 
+  % fundamental state -- internal energy
+  U = MultiDimVar({N_lbl}, [2], indexOrder);
+
+
+  % starting time
+  to = MultiDimVar({}, [1], indexOrder);
+  to(1) = 0;
+
+
+  % time
+  t = MultiDimVar({}, [1], indexOrder);
+
+
+  % accumulation of enthalpy due to diffusional mass flow in x-direction
+  aHnd_x = MultiDimVar({N_lbl}, [2], indexOrder);
+  aHnd_x(2) = 0;
+
+
   % accumulation of enthalpy due to convective mass flow in x-direction
   aHnc_x = MultiDimVar({N_lbl}, [2], indexOrder);
   aHnc_x(2) = 0;
 
 
-  % accumulation of enthalpy due to diffusional mass flow in z-direction
-  aHnd_z = MultiDimVar({N_lbl}, [2], indexOrder);
-  aHnd_z(2) = 0;
+  % initial enthalpy
+  Ho = MultiDimVar({N_lbl}, [2], indexOrder);
+  Ho(2) = 0;
 
 
-  % accumulation due to heat flow in z-direction
-  aq_z = MultiDimVar({N_lbl}, [2], indexOrder);
-  aq_z(2) = 0;
+  % accumulation of enthalpy due to diffusional mass flow in y-direction
+  aHnd_y = MultiDimVar({N_lbl}, [2], indexOrder);
+  aHnd_y(2) = 0;
+
+
+  % heat flow in x-direction
+  fq_x = MultiDimVar({A_lbl}, [1], indexOrder);
+
+
+  % reference temperature
+  T_ref = MultiDimVar({N_lbl}, [2], indexOrder);
+  T_ref(2) = 22;
+
+
+  % accumulation of enthalpy
+  dH = MultiDimVar({N_lbl}, [2], indexOrder);
 
 
   % total heat capacity at constant pressure
@@ -69,59 +115,13 @@ function output_vars = main
   aw(2) = 0;
 
 
+  % cross sectional area yz
+  Ayz = MultiDimVar({N_lbl}, [2], indexOrder);
+  Ayz(1) = 0.01;
+
+
   % accumulation due to heat flow in x-direction
   aq_x = MultiDimVar({N_lbl}, [2], indexOrder);
-
-
-  % thermal conductivity in arc and x-direction
-  kqA_x = MultiDimVar({A_lbl}, [1], indexOrder);
-  kqA_x(1) = 2;
-
-
-  % fundamental state -- internal energy
-  U = MultiDimVar({N_lbl}, [2], indexOrder);
-
-
-  % accumulation of enthalpy due to diffusional mass flow in x-direction
-  aHnd_x = MultiDimVar({N_lbl}, [2], indexOrder);
-  aHnd_x(2) = 0;
-
-
-  % end time
-  te = MultiDimVar({}, [1], indexOrder);
-  te(1) = 100;
-
-
-  % starting time
-  to = MultiDimVar({}, [1], indexOrder);
-  to(1) = 0;
-
-
-  % accumulation of enthalpy
-  dH = MultiDimVar({N_lbl}, [2], indexOrder);
-
-
-  % initial enthalpy
-  Ho = MultiDimVar({N_lbl}, [2], indexOrder);
-  Ho(2) = 0;
-
-
-  % incidence matrix
-  F = MultiDimVar({N_lbl, A_lbl}, [2,1], indexOrder);
-  F(1,1) = -1;
-  F(2,1) = 1;
-
-
-  % fundamental state -- internal entropy
-  S = MultiDimVar({N_lbl}, [2], indexOrder);
-
-
-  % time
-  t = MultiDimVar({}, [1], indexOrder);
-
-
-  % heat flow in x-direction
-  fq_x = MultiDimVar({A_lbl}, [1], indexOrder);
 
 
 
@@ -157,16 +157,16 @@ function output_vars = main
     H.value(N_E_112) = reshape(phi(1:1), 1);
 
     N_E_110 = [2];
-    dH(N_E_110) = E_110(aw, aq_x, aq_y, aHnd_y, aHnc_x, aHnd_x, aHnd_z, aq_z, N_E_110);
+    dH(N_E_110) = E_110(aq_z, aHnd_z, aHnd_x, aHnc_x, aw, aHnd_y, aq_y, aq_x, N_E_110);
 
     N_E_121 = [2];
-    T(N_E_121) = E_121(T_ref, H, Cp, N_E_121);
+    T(N_E_121) = E_121(Cp, H, T_ref, N_E_121);
 
     N_E_9 = [1];
     T(N_E_9) = E_9(S, U, N_E_9);
 
     A_E_43 = [1];
-    fq_x(A_E_43) = E_43(Ayz, kqA_x, F, T, A_E_43);
+    fq_x(A_E_43) = E_43(kqA_x, F, T, Ayz, A_E_43);
 
     extra_output = [
     ];
@@ -176,11 +176,11 @@ function output_vars = main
 endfunction
 
 % Functions for the equations
-function sol = E_110(aw, aq_x, aq_y, aHnd_y, aHnc_x, aHnd_x, aHnd_z, aq_z, N)
+function sol = E_110(aq_z, aHnd_z, aHnd_x, aHnc_x, aw, aHnd_y, aq_y, aq_x, N)
   sol = aHnc_x(N) + aHnd_x(N) + aHnd_y(N) + aHnd_z(N) + aq_x(N) + aq_y(N) + aq_z(N) + aw(N);
 endfunction
 
-function sol = E_121(T_ref, H, Cp, N)
+function sol = E_121(Cp, H, T_ref, N)
   sol = einsum(H(N), 1 ./ Cp(N)) + T_ref(N);
 endfunction
 
@@ -188,7 +188,7 @@ function sol = E_9(S, U, N)
   sol = None;
 endfunction
 
-function sol = E_43(Ayz, kqA_x, F, T, A)
+function sol = E_43(kqA_x, F, T, Ayz, A)
   sol = einsum(einsum(kqA_x(A), Ayz(N)), einsum(F(N, A), T(N), {"N"}));
 endfunction
 
