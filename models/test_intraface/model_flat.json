@@ -1,6 +1,21 @@
 {
   "nodes": {
     "1": {
+      "name": "massSource",
+      "network": "gas",
+      "named_network": "A-gas",
+      "class": "node_simple",
+      "type": "constant|infinity",
+      "variant": "massSource",
+      "instantiated_variables": {},
+      "entity_id": "macroscopic.node.mass|constant|infinity.massSource",
+      "tokens": {
+        "mass": []
+      },
+      "injected_typed_tokens": {},
+      "mass": []
+    },
+    "2": {
       "name": "dynamicMass",
       "network": "gas",
       "named_network": "A-gas",
@@ -15,7 +30,7 @@
       "conversions": {},
       "mass": []
     },
-    "2": {
+    "3": {
       "name": "massSource",
       "network": "liquid",
       "named_network": "A-liquid",
@@ -30,45 +45,7 @@
       "injected_typed_tokens": {},
       "mass": []
     },
-    "3": {
-      "name": "controlledMassFlow",
-      "network": "liquid",
-      "named_network": "A-gas >>> A-liquid",
-      "class": "node_arc",
-      "type": "mass|convection|lumped",
-      "variant": "controlledMassFlow",
-      "instantiated_variables": {},
-      "entity_id": "macroscopic.arc.mass|convection|lumped.controlledMassFlow",
-      "tokens": {
-        "mass": []
-      },
-      "tokens_right": {
-        "mass": []
-      },
-      "tokens_left": {
-        "mass": []
-      },
-      "transfer_constraints": {
-        "mass": []
-      },
-      "mass": []
-    },
     "4": {
-      "name": "massSource",
-      "network": "gas",
-      "named_network": "A-gas",
-      "class": "node_simple",
-      "type": "constant|infinity",
-      "variant": "massSource",
-      "instantiated_variables": {},
-      "entity_id": "macroscopic.node.mass|constant|infinity.massSource",
-      "tokens": {
-        "mass": []
-      },
-      "injected_typed_tokens": {},
-      "mass": []
-    },
-    "5": {
       "name": "convectiveMassFlow",
       "network": "gas",
       "named_network": "A-gas >>> A-gas",
@@ -90,64 +67,83 @@
         "mass": []
       },
       "mass": []
+    },
+    "5": {
+      "name": "diffusionalMassTransfer",
+      "network": "liquid",
+      "named_network": "A-gas >>> A-liquid",
+      "class": "node_arc",
+      "type": "mass|diffusion|lumped",
+      "variant": "diffusionalMassTransfer",
+      "instantiated_variables": {},
+      "entity_id": "macroscopic.arc.mass|diffusion|lumped.diffusionalMassTransfer",
+      "tokens": {
+        "mass": []
+      },
+      "tokens_right": {
+        "mass": []
+      },
+      "tokens_left": {
+        "mass": []
+      },
+      "transfer_constraints": {
+        "mass": []
+      },
+      "mass": []
     }
   },
   "arcs": {
     "0": {
-      "name": "1 | 3",
+      "name": "1 | 4",
       "source": 1,
-      "sink": 3,
+      "sink": 4,
       "token": "mass",
       "typed_tokens": [],
       "network": "gas",
       "named_network": "A-gas",
       "mechanism": "convection",
       "nature": "lumped",
-      "variant": "controlledMassFlow",
-      "instantiated_variables": {},
-      "entity_id": "macroscopic.arc.mass|convection|lumped.controlledMassFlow"
+      "variant": "convectiveMassFlow",
+      "instantiated_variables": {}
     },
     "1": {
-      "name": "3 | 2",
-      "source": 3,
+      "name": "4 | 2",
+      "source": 4,
       "sink": 2,
       "token": "mass",
       "typed_tokens": [],
-      "network": "liquid",
-      "named_network": "A-liquid",
+      "network": "gas",
+      "named_network": "A-gas",
       "mechanism": "convection",
       "nature": "lumped",
-      "variant": "controlledMassFlow",
-      "instantiated_variables": {},
-      "entity_id": "macroscopic.arc.mass|convection|lumped.controlledMassFlow"
+      "variant": "convectiveMassFlow",
+      "instantiated_variables": {}
     },
     "2": {
-      "name": "4 | 5",
-      "source": 4,
+      "name": "2 | 5",
+      "source": 2,
       "sink": 5,
       "token": "mass",
       "typed_tokens": [],
       "network": "gas",
       "named_network": "A-gas",
-      "mechanism": "convection",
+      "mechanism": "diffusion",
       "nature": "lumped",
-      "variant": "convectiveMassFlow",
-      "instantiated_variables": {},
-      "entity_id": "macroscopic.arc.mass|convection|lumped.convectiveMassFlow"
+      "variant": "diffusionalMassTransfer",
+      "instantiated_variables": {}
     },
     "3": {
-      "name": "5 | 1",
+      "name": "5 | 3",
       "source": 5,
-      "sink": 1,
+      "sink": 3,
       "token": "mass",
       "typed_tokens": [],
-      "network": "gas",
-      "named_network": "A-gas",
-      "mechanism": "convection",
+      "network": "liquid",
+      "named_network": "A-liquid",
+      "mechanism": "diffusion",
       "nature": "lumped",
-      "variant": "convectiveMassFlow",
-      "instantiated_variables": {},
-      "entity_id": "macroscopic.arc.mass|convection|lumped.convectiveMassFlow"
+      "variant": "diffusionalMassTransfer",
+      "instantiated_variables": {}
     }
   },
   "named_networks": {
@@ -267,21 +263,21 @@
     "0": {
       "mass": {
         "1": [
-          0,
-          3
+          0
         ],
-        "3": [
+        "4": [
           0,
           1
         ],
         "2": [
-          1
-        ],
-        "4": [
+          1,
           2
         ],
         "5": [
           2,
+          3
+        ],
+        "3": [
           3
         ]
       }

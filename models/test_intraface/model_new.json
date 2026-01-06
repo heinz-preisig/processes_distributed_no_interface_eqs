@@ -7,13 +7,37 @@
         "children_ids": [
             "N_1",
             "N_2",
-            "A_3",
-            "N_4",
+            "N_3",
+            "A_4",
             "A_5"
         ]
     },
     "N_1": {
         "identifier": "N_1",
+        "name": "massSource",
+        "parent_id": "N_0",
+        "modeller_class": "NodeSimple",
+        "entity_name": "macroscopic.node.mass|constant|infinity.massSource",
+        "network": "gas",
+        "named_network": "A-gas",
+        "tokens": [
+            "mass"
+        ],
+        "typed_tokens": {
+            "mass": []
+        },
+        "instantiated_variables": {
+            "V_112": {},
+            "V_138": {}
+        },
+        "outgoing_connections": [
+            "A_4"
+        ],
+        "conversions": null,
+        "injected_typed_tokens": null
+    },
+    "N_2": {
+        "identifier": "N_2",
         "name": "dynamicMass",
         "parent_id": "N_0",
         "modeller_class": "NodeSimple",
@@ -30,18 +54,18 @@
             "V_105": {},
             "V_106": {},
             "V_110": {},
-            "V_112": {},
+            "V_195": {},
             "V_202": {},
             "V_203": {}
         },
         "outgoing_connections": [
-            "A_3"
+            "A_5"
         ],
         "conversions": {},
         "injected_typed_tokens": null
     },
-    "N_2": {
-        "identifier": "N_2",
+    "N_3": {
+        "identifier": "N_3",
         "name": "massSource",
         "parent_id": "N_0",
         "modeller_class": "NodeSimple",
@@ -62,56 +86,8 @@
         "conversions": null,
         "injected_typed_tokens": null
     },
-    "A_3": {
-        "identifier": "A_3",
-        "name": "controlledMassFlow",
-        "parent_id": "N_0",
-        "modeller_class": "Arc",
-        "entity_name": "macroscopic.arc.mass|convection|lumped.controlledMassFlow",
-        "network": "liquid",
-        "named_network": "A-gas >>> A-liquid",
-        "tokens": [
-            "mass"
-        ],
-        "typed_tokens": {
-            "mass": []
-        },
-        "instantiated_variables": {
-            "V_104": {},
-            "V_150": {},
-            "V_183": {},
-            "V_189": {}
-        },
-        "outgoing_connections": [
-            "N_2"
-        ]
-    },
-    "N_4": {
-        "identifier": "N_4",
-        "name": "massSource",
-        "parent_id": "N_0",
-        "modeller_class": "NodeSimple",
-        "entity_name": "macroscopic.node.mass|constant|infinity.massSource",
-        "network": "gas",
-        "named_network": "A-gas",
-        "tokens": [
-            "mass"
-        ],
-        "typed_tokens": {
-            "mass": []
-        },
-        "instantiated_variables": {
-            "V_112": {},
-            "V_138": {}
-        },
-        "outgoing_connections": [
-            "A_5"
-        ],
-        "conversions": null,
-        "injected_typed_tokens": null
-    },
-    "A_5": {
-        "identifier": "A_5",
+    "A_4": {
+        "identifier": "A_4",
         "name": "convectiveMassFlow",
         "parent_id": "N_0",
         "modeller_class": "Arc",
@@ -128,11 +104,32 @@
             "V_104": {},
             "V_150": {},
             "V_183": {},
-            "V_189": {},
-            "V_2": {}
+            "V_189": {}
         },
         "outgoing_connections": [
-            "N_1"
+            "N_2"
+        ]
+    },
+    "A_5": {
+        "identifier": "A_5",
+        "name": "diffusionalMassTransfer",
+        "parent_id": "N_0",
+        "modeller_class": "Arc",
+        "entity_name": "macroscopic.arc.mass|diffusion|lumped.diffusionalMassTransfer",
+        "network": "liquid",
+        "named_network": "A-gas >>> A-liquid",
+        "tokens": [
+            "mass"
+        ],
+        "typed_tokens": {
+            "mass": []
+        },
+        "instantiated_variables": {
+            "V_150": {},
+            "V_190": {}
+        },
+        "outgoing_connections": [
+            "N_3"
         ]
     }
 }
