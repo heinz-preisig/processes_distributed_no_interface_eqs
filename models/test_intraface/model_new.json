@@ -7,7 +7,9 @@
         "children_ids": [
             "N_1",
             "N_2",
-            "A_3"
+            "A_3",
+            "N_4",
+            "A_5"
         ]
     },
     "N_1": {
@@ -25,15 +27,10 @@
             "mass": []
         },
         "instantiated_variables": {
-            "V_104": {},
             "V_105": {},
             "V_106": {},
             "V_110": {},
             "V_112": {},
-            "V_150": {},
-            "V_183": {},
-            "V_189": {},
-            "V_190": {},
             "V_202": {},
             "V_203": {}
         },
@@ -87,6 +84,55 @@
         },
         "outgoing_connections": [
             "N_2"
+        ]
+    },
+    "N_4": {
+        "identifier": "N_4",
+        "name": "massSource",
+        "parent_id": "N_0",
+        "modeller_class": "NodeSimple",
+        "entity_name": "macroscopic.node.mass|constant|infinity.massSource",
+        "network": "gas",
+        "named_network": "A-gas",
+        "tokens": [
+            "mass"
+        ],
+        "typed_tokens": {
+            "mass": []
+        },
+        "instantiated_variables": {
+            "V_112": {},
+            "V_138": {}
+        },
+        "outgoing_connections": [
+            "A_5"
+        ],
+        "conversions": null,
+        "injected_typed_tokens": null
+    },
+    "A_5": {
+        "identifier": "A_5",
+        "name": "convectiveMassFlow",
+        "parent_id": "N_0",
+        "modeller_class": "Arc",
+        "entity_name": "macroscopic.arc.mass|convection|lumped.convectiveMassFlow",
+        "network": "gas",
+        "named_network": "A-gas >>> A-gas",
+        "tokens": [
+            "mass"
+        ],
+        "typed_tokens": {
+            "mass": []
+        },
+        "instantiated_variables": {
+            "V_104": {},
+            "V_150": {},
+            "V_183": {},
+            "V_189": {},
+            "V_2": {}
+        },
+        "outgoing_connections": [
+            "N_1"
         ]
     }
 }

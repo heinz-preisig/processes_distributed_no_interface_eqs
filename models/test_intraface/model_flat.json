@@ -52,6 +52,44 @@
         "mass": []
       },
       "mass": []
+    },
+    "4": {
+      "name": "massSource",
+      "network": "gas",
+      "named_network": "A-gas",
+      "class": "node_simple",
+      "type": "constant|infinity",
+      "variant": "massSource",
+      "instantiated_variables": {},
+      "entity_id": "macroscopic.node.mass|constant|infinity.massSource",
+      "tokens": {
+        "mass": []
+      },
+      "injected_typed_tokens": {},
+      "mass": []
+    },
+    "5": {
+      "name": "convectiveMassFlow",
+      "network": "gas",
+      "named_network": "A-gas >>> A-gas",
+      "class": "node_arc",
+      "type": "mass|convection|lumped",
+      "variant": "convectiveMassFlow",
+      "instantiated_variables": {},
+      "entity_id": "macroscopic.arc.mass|convection|lumped.convectiveMassFlow",
+      "tokens": {
+        "mass": []
+      },
+      "tokens_right": {
+        "mass": []
+      },
+      "tokens_left": {
+        "mass": []
+      },
+      "transfer_constraints": {
+        "mass": []
+      },
+      "mass": []
     }
   },
   "arcs": {
@@ -66,7 +104,8 @@
       "mechanism": "convection",
       "nature": "lumped",
       "variant": "controlledMassFlow",
-      "instantiated_variables": {}
+      "instantiated_variables": {},
+      "entity_id": "macroscopic.arc.mass|convection|lumped.controlledMassFlow"
     },
     "1": {
       "name": "3 | 2",
@@ -79,7 +118,36 @@
       "mechanism": "convection",
       "nature": "lumped",
       "variant": "controlledMassFlow",
-      "instantiated_variables": {}
+      "instantiated_variables": {},
+      "entity_id": "macroscopic.arc.mass|convection|lumped.controlledMassFlow"
+    },
+    "2": {
+      "name": "4 | 5",
+      "source": 4,
+      "sink": 5,
+      "token": "mass",
+      "typed_tokens": [],
+      "network": "gas",
+      "named_network": "A-gas",
+      "mechanism": "convection",
+      "nature": "lumped",
+      "variant": "convectiveMassFlow",
+      "instantiated_variables": {},
+      "entity_id": "macroscopic.arc.mass|convection|lumped.convectiveMassFlow"
+    },
+    "3": {
+      "name": "5 | 1",
+      "source": 5,
+      "sink": 1,
+      "token": "mass",
+      "typed_tokens": [],
+      "network": "gas",
+      "named_network": "A-gas",
+      "mechanism": "convection",
+      "nature": "lumped",
+      "variant": "convectiveMassFlow",
+      "instantiated_variables": {},
+      "entity_id": "macroscopic.arc.mass|convection|lumped.convectiveMassFlow"
     }
   },
   "named_networks": {
@@ -181,7 +249,9 @@
       "0": [
         1,
         2,
-        3
+        3,
+        4,
+        5
       ]
     },
     "signal": {}
@@ -197,7 +267,8 @@
     "0": {
       "mass": {
         "1": [
-          0
+          0,
+          3
         ],
         "3": [
           0,
@@ -205,6 +276,13 @@
         ],
         "2": [
           1
+        ],
+        "4": [
+          2
+        ],
+        "5": [
+          2,
+          3
         ]
       }
     }
