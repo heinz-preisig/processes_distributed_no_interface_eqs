@@ -118,14 +118,6 @@
         "input_vars": [],
         "output_vars": []
     },
-    "control.arc.signal|link|unidirectional.signal": {
-        "index_set": "A_link",
-        "integrators": {},
-        "var_eq_forest": [],
-        "init_vars": [],
-        "input_vars": [],
-        "output_vars": []
-    },
     "macroscopic.node.mass|dynamic|lumped.dynamicMass": {
         "index_set": "N_dyna",
         "integrators": {
@@ -193,62 +185,6 @@
             "V_111"
         ]
     },
-    "control.node.signal|event|AE.pControl": {
-        "index_set": "N_even",
-        "integrators": {},
-        "var_eq_forest": [
-            {
-                "V_239": [
-                    "E_137"
-                ],
-                "E_137": [
-                    "V_238",
-                    "V_102"
-                ],
-                "V_238": [
-                    "E_136"
-                ],
-                "V_102": [],
-                "E_136": [
-                    "V_237",
-                    "V_231"
-                ],
-                "V_237": [],
-                "V_231": [
-                    "E_130"
-                ],
-                "E_130": [
-                    "V_226",
-                    "V_227"
-                ],
-                "V_226": [
-                    "E_125"
-                ],
-                "V_227": [],
-                "E_125": [
-                    "V_225",
-                    "V_4",
-                    "V_9"
-                ],
-                "V_225": [],
-                "V_4": [],
-                "V_9": []
-            }
-        ],
-        "init_vars": [
-            "V_237",
-            "V_227",
-            "V_102"
-        ],
-        "input_vars": [
-            "V_225",
-            "V_4",
-            "V_9"
-        ],
-        "output_vars": [
-            "V_239"
-        ]
-    },
     "macroscopic >>> reactions (x -> _x)": {
         "index_set": null,
         "integrators": {},
@@ -306,11 +242,11 @@
                     "E_55"
                 ],
                 "E_55": [
-                    "V_138",
-                    "V_3"
+                    "V_3",
+                    "V_138"
                 ],
-                "V_138": [],
-                "V_3": []
+                "V_3": [],
+                "V_138": []
             }
         ],
         "init_vars": [],
@@ -330,13 +266,13 @@
                     "E_96"
                 ],
                 "E_96": [
-                    "V_10",
                     "V_3",
-                    "V_200"
+                    "V_200",
+                    "V_10"
                 ],
-                "V_10": [],
                 "V_3": [],
-                "V_200": []
+                "V_200": [],
+                "V_10": []
             }
         ],
         "init_vars": [],

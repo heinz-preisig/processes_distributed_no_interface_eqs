@@ -23,14 +23,6 @@
             "macroscopic.node.mass|dynamic|lumped.dynamicMass"
         ]
     },
-    "control.arc.signal|link|unidirectional.signal": {
-        "sources": [
-            "control.node.signal|event|AE.pControl"
-        ],
-        "sinks": [
-            "control.node.signal|event|AE.pControl"
-        ]
-    },
     "macroscopic >>> reactions (x -> _x)": {
         "sources": [],
         "sinks": []
