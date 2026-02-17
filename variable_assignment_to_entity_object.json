@@ -193,62 +193,6 @@
             "V_111"
         ]
     },
-    "control.node.signal|event|AE.pControl": {
-        "index_set": "Node_sign",
-        "integrators": {},
-        "var_eq_forest": [
-            {
-                "V_239": [
-                    "E_137"
-                ],
-                "E_137": [
-                    "V_238",
-                    "V_102"
-                ],
-                "V_238": [
-                    "E_136"
-                ],
-                "V_102": [],
-                "E_136": [
-                    "V_237",
-                    "V_231"
-                ],
-                "V_237": [],
-                "V_231": [
-                    "E_130"
-                ],
-                "E_130": [
-                    "V_226",
-                    "V_227"
-                ],
-                "V_226": [
-                    "E_125"
-                ],
-                "V_227": [],
-                "E_125": [
-                    "V_225",
-                    "V_4",
-                    "V_9"
-                ],
-                "V_225": [],
-                "V_4": [],
-                "V_9": []
-            }
-        ],
-        "init_vars": [
-            "V_237",
-            "V_227",
-            "V_102"
-        ],
-        "input_vars": [
-            "V_225",
-            "V_4",
-            "V_9"
-        ],
-        "output_vars": [
-            "V_239"
-        ]
-    },
     "macroscopic.node.energy|event|lumped.gggg": {
         "index_set": "Node_ener",
         "integrators": {
