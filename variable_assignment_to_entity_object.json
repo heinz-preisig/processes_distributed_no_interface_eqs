@@ -280,35 +280,5 @@
         "output_vars": [
             "V_111"
         ]
-    },
-    "macroscopic.node.energy|event|distributed.hhh": {
-        "index_set": "Node_ener",
-        "integrators": {
-            "V_196": "E_93"
-        },
-        "var_eq_forest": [
-            {
-                "E_93": [
-                    "V_196",
-                    "V_106",
-                    "V_105",
-                    "V_203",
-                    "V_1"
-                ],
-                "V_203": [],
-                "V_1": [],
-                "V_105": [],
-                "V_196": [],
-                "V_106": []
-            }
-        ],
-        "init_vars": [
-            "V_203",
-            "V_1",
-            "V_105",
-            "V_106"
-        ],
-        "input_vars": [],
-        "output_vars": []
     }
 }
