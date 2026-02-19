@@ -110,14 +110,6 @@
             "V_154"
         ]
     },
-    "macroscopic.node.energy_mass|dynamic|lumped.dynamicMassEnergy": {
-        "index_set": "Node_ener",
-        "integrators": {},
-        "var_eq_forest": [],
-        "init_vars": [],
-        "input_vars": [],
-        "output_vars": []
-    },
     "control.arc.signal|link|unidirectional.signal": {
         "index_set": "Arc_sign",
         "integrators": {},
