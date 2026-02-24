@@ -235,14 +235,8 @@
                 "V_203": []
             }
         ],
-        "init_vars": [
-            "V_105",
-            "V_106",
-            "V_203"
-        ],
-        "input_vars": [
-            "V_1"
-        ],
+        "init_vars": [],
+        "input_vars": [],
         "output_vars": []
     }
 }
