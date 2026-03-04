@@ -146,39 +146,5 @@
         "init_vars": [],
         "input_vars": [],
         "output_vars": []
-    },
-    "macroscopic.node.charge_energy|event|distributed.l": {
-        "index_set": "Node_char",
-        "integrators": {
-            "V_111": "E_93"
-        },
-        "var_eq_forest": [
-            {
-                "V_111": [
-                    "E_93"
-                ],
-                "E_93": [
-                    "V_203",
-                    "V_105",
-                    "V_1",
-                    "V_106",
-                    "V_196"
-                ],
-                "V_203": [],
-                "V_105": [],
-                "V_1": [],
-                "V_106": [],
-                "V_196": []
-            },
-            {}
-        ],
-        "init_vars": [
-            "V_1",
-            "V_105",
-            "V_106",
-            "V_203"
-        ],
-        "input_vars": [],
-        "output_vars": []
     }
 }
