@@ -124,12 +124,41 @@
                 "V_188": []
             }
         ],
-        "init_vars": [
-            "V_2"
-        ],
+        "init_vars": [],
         "input_vars": [],
+        "output_vars": []
+    },
+    "macroscopic.arc.energy|conduction|lumped.heat": {
+        "index_set": "Arc_ener",
+        "integrators": {},
+        "var_eq_forest": [
+            {},
+            {
+                "V_151": [
+                    "E_43"
+                ],
+                "E_43": [
+                    "V_2",
+                    "V_186",
+                    "V_150",
+                    "V_113"
+                ],
+                "V_2": [],
+                "V_186": [],
+                "V_150": [],
+                "V_113": []
+            }
+        ],
+        "init_vars": [
+            "V_150",
+            "V_186"
+        ],
+        "input_vars": [
+            "V_2",
+            "V_113"
+        ],
         "output_vars": [
-            "V_153"
+            "V_151"
         ]
     }
 }
