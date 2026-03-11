@@ -1,164 +1,38 @@
 {
-    "macroscopic.arc.mass|convection|lumped.convectiveMassFlow": {
-        "index_set": "Arc_mass",
+    "macroscopic.node.mass|constant|infinity.k": {
+        "index_set": "Node_mass",
         "integrators": {},
         "var_eq_forest": [
+            {},
             {
-                "V_160": [
-                    "E_52"
-                ],
-                "E_52": [
-                    "V_158",
-                    "V_159"
-                ],
-                "V_158": [
-                    "E_50"
-                ],
-                "V_159": [
-                    "E_51"
-                ],
-                "E_50": [
-                    "V_138",
-                    "V_104",
-                    "V_157",
-                    "V_2"
-                ],
-                "V_138": [],
-                "V_104": [],
-                "V_157": [
-                    "E_49"
-                ],
-                "V_2": [],
-                "E_51": [
-                    "V_183",
-                    "V_189",
-                    "V_112",
-                    "V_150"
-                ],
-                "V_183": [],
-                "V_189": [],
                 "V_112": [],
-                "V_150": [],
-                "E_49": []
-            }
-        ],
-        "init_vars": [],
-        "input_vars": [],
-        "output_vars": []
-    },
-    "macroscopic.arc.mass|diffusion|lumped.diffusionalMassTransfer": {
-        "index_set": "Arc_mass",
-        "integrators": {},
-        "var_eq_forest": [
-            {
-                "V_154": [
-                    "E_46"
-                ],
-                "E_46": [
-                    "V_138",
-                    "V_2",
-                    "V_150",
-                    "V_190"
-                ],
-                "V_138": [],
-                "V_2": [],
-                "V_150": [],
-                "V_190": []
-            }
-        ],
-        "init_vars": [],
-        "input_vars": [],
-        "output_vars": []
-    },
-    "control.arc.signal|link|unidirectional.signal": {
-        "index_set": "Arc_sign",
-        "integrators": {},
-        "var_eq_forest": [],
-        "init_vars": [],
-        "input_vars": [],
-        "output_vars": []
-    },
-    "microscopic.arc.energy|work|lumped.h": {
-        "index_set": "Arc_ener",
-        "integrators": {},
-        "var_eq_forest": [
-            {},
-            {
-                "V_151": [
-                    "E_43"
-                ],
-                "E_43": [
-                    "V_150",
-                    "V_2",
-                    "V_186",
-                    "V_113"
-                ],
-                "V_150": [],
-                "V_2": [],
-                "V_186": [],
-                "V_113": []
-            }
-        ],
-        "init_vars": [],
-        "input_vars": [],
-        "output_vars": []
-    },
-    "microscopic.arc.energy|conduction|lumped.kk": {
-        "index_set": "Arc_ener",
-        "integrators": {},
-        "var_eq_forest": [
-            {},
-            {
-                "V_153": [
-                    "E_45"
-                ],
-                "E_45": [
-                    "V_148",
-                    "V_113",
-                    "V_2",
-                    "V_188"
-                ],
-                "V_148": [],
-                "V_113": [],
-                "V_2": [],
-                "V_188": []
-            }
-        ],
-        "init_vars": [],
-        "input_vars": [],
-        "output_vars": []
-    },
-    "macroscopic.arc.energy|conduction|lumped.heat": {
-        "index_set": "Arc_ener",
-        "integrators": {},
-        "var_eq_forest": [
-            {},
-            {
-                "V_151": [
-                    "E_43"
-                ],
-                "E_43": [
-                    "V_2",
-                    "V_186",
-                    "V_150",
-                    "V_113"
-                ],
-                "V_2": [],
-                "V_186": [],
-                "V_150": [],
                 "V_113": []
             }
         ],
         "init_vars": [
-            "V_150",
-            "V_186"
-        ],
-        "input_vars": [
-            "V_2",
+            "V_112",
             "V_113"
         ],
+        "input_vars": [],
         "output_vars": [
-            "V_151"
-        ]
+            "V_113",
+            "V_112"
+        ],
+        "local_variable_classifications": {
+            "V_112": {
+                "classification": [
+                    "output",
+                    "instantiate"
+                ],
+                "original_list": "list_output"
+            },
+            "V_113": {
+                "classification": [
+                    "output",
+                    "instantiate"
+                ],
+                "original_list": "list_output"
+            }
+        }
     }
 }
