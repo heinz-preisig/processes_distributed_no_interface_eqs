@@ -2914,6 +2914,50 @@ V_V_9.temperature = [ units[4] ]
 V_V_9.current = [ units[5] ]
 V_V_9.light = [ units[6] ]
 
+# V_244
+label = variables[V_244]["label"]
+network = variables[V_244]["network"]
+variable_type = variables[V_244]["type"]
+label = variables[V_244]["label"]
+doc = variables[V_244]["doc"]
+onto_ID = "V_V_244"
+V_V_244 = onto.ProMoVar( onto_ID )
+V_V_244.label = label
+V_V_244.network = network
+V_V_244.variable_type = variable_type
+V_V_244.comment = doc
+
+units = variables[V_244]["units"].asList()
+V_V_244.time = [ units[0] ]
+V_V_244.length = [ units[1] ]
+V_V_244.amount = [ units[2] ]
+V_V_244.mass = [ units[3] ]
+V_V_244.temperature = [ units[4] ]
+V_V_244.current = [ units[5] ]
+V_V_244.light = [ units[6] ]
+
+# V_245
+label = variables[V_245]["label"]
+network = variables[V_245]["network"]
+variable_type = variables[V_245]["type"]
+label = variables[V_245]["label"]
+doc = variables[V_245]["doc"]
+onto_ID = "V_V_245"
+V_V_245 = onto.ProMoVar( onto_ID )
+V_V_245.label = label
+V_V_245.network = network
+V_V_245.variable_type = variable_type
+V_V_245.comment = doc
+
+units = variables[V_245]["units"].asList()
+V_V_245.time = [ units[0] ]
+V_V_245.length = [ units[1] ]
+V_V_245.amount = [ units[2] ]
+V_V_245.mass = [ units[3] ]
+V_V_245.temperature = [ units[4] ]
+V_V_245.current = [ units[5] ]
+V_V_245.light = [ units[6] ]
+
 # functions assignments
 
 #V_1
@@ -4110,5 +4154,26 @@ V_V_8.has_function = []
 #V_9
 
 V_V_9.has_function = []
+#V_244
+
+V_V_244.has_function = []
+incidence_list = []
+incidence_list.append( V_3 )
+incidence_list.append( V_224 )
+F_ID = "F_E_143"
+F_E_143 = onto.function( F_ID )
+F_E_143.is_function_of = incidence_list
+V_V_244.has_function.append( F_E_143 )
+#V_245
+
+V_V_245.has_function = []
+incidence_list = []
+incidence_list.append( V_4 )
+incidence_list.append( V_244 )
+incidence_list.append( V_9 )
+F_ID = "F_E_144"
+F_E_144 = onto.function( F_ID )
+F_E_144.is_function_of = incidence_list
+V_V_245.has_function.append( F_E_144 )
 
 onto.save("variables.owl")

@@ -149,6 +149,16 @@
     "network": "macroscopic",
     "rhs": " ParDiff ( r_x , t )"
   },
+  "E_143": {
+    "lhs": "_mv_I",
+    "network": "macroscopic >>> control",
+    "rhs": " F_NI_source * N T_meas"
+  },
+  "E_144": {
+    "lhs": "T_meas",
+    "network": "control",
+    "rhs": " ( F_NI_sink . _mv_I ) * I S_Ip"
+  },
   "E_15": {
     "lhs": "v_y",
     "network": "macroscopic",

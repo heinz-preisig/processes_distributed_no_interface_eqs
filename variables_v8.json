@@ -140,7 +140,8 @@
           "lhs": {
             "global_ID": "V_102",
             "latex": "{0}{_{}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_1.png"
         }
       },
       "imported": false,
@@ -194,7 +195,8 @@
           "lhs": {
             "global_ID": "V_103",
             "latex": "{1}{_{}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_2.png"
         }
       },
       "imported": false,
@@ -248,7 +250,8 @@
           "lhs": {
             "global_ID": "V_104",
             "latex": "{0.5}{_{}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_3.png"
         }
       },
       "imported": false,
@@ -303,7 +306,8 @@
           "lhs": {
             "global_ID": "V_105",
             "latex": "{{t^o}}{_{}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_4.png"
         }
       },
       "imported": false,
@@ -358,7 +362,8 @@
           "lhs": {
             "global_ID": "V_106",
             "latex": "{{t^e}}{_{}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_5.png"
         }
       },
       "imported": false,
@@ -413,7 +418,8 @@
           "lhs": {
             "global_ID": "V_107",
             "latex": "{{\\Delta t}}{_{}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_6.png"
         }
       },
       "imported": false,
@@ -581,7 +587,8 @@
           "lhs": {
             "global_ID": "V_110",
             "latex": "{V}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_7.png"
         }
       },
       "imported": false,
@@ -641,7 +648,8 @@
           "lhs": {
             "global_ID": "V_111",
             "latex": "{n}{_{N, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_93.png"
         }
       },
       "imported": false,
@@ -699,7 +707,8 @@
           "lhs": {
             "global_ID": "V_112",
             "latex": "{p}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_8.png"
         }
       },
       "imported": false,
@@ -756,7 +765,8 @@
           "lhs": {
             "global_ID": "V_113",
             "latex": "{T}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_9.png"
         },
         "E_121": {
           "rhs": {
@@ -776,7 +786,8 @@
           "lhs": {
             "global_ID": "V_113",
             "latex": "{T}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_121.png"
         }
       },
       "imported": false,
@@ -833,7 +844,8 @@
           "lhs": {
             "global_ID": "V_114",
             "latex": "{{\\mu}}{_{N, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_10.png"
         },
         "E_54": {
           "rhs": {
@@ -854,7 +866,8 @@
           "lhs": {
             "global_ID": "V_114",
             "latex": "{{\\mu}}{_{N, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_54.png"
         }
       },
       "imported": false,
@@ -913,7 +926,8 @@
           "lhs": {
             "global_ID": "V_115",
             "latex": "{H}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_11.png"
         },
         "E_112": {
           "rhs": {
@@ -935,7 +949,8 @@
           "lhs": {
             "global_ID": "V_115",
             "latex": "{H}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_112.png"
         }
       },
       "imported": false,
@@ -993,7 +1008,8 @@
           "lhs": {
             "global_ID": "V_116",
             "latex": "{A}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_12.png"
         }
       },
       "imported": false,
@@ -1053,7 +1069,8 @@
           "lhs": {
             "global_ID": "V_117",
             "latex": "{G}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_13.png"
         }
       },
       "imported": false,
@@ -1110,7 +1127,8 @@
           "lhs": {
             "global_ID": "V_118",
             "latex": "{{v_x}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_14.png"
         }
       },
       "imported": false,
@@ -1167,7 +1185,8 @@
           "lhs": {
             "global_ID": "V_119",
             "latex": "{{v_y}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_15.png"
         }
       },
       "imported": false,
@@ -1262,7 +1281,8 @@
           "lhs": {
             "global_ID": "V_120",
             "latex": "{{v_z}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_16.png"
         }
       },
       "imported": false,
@@ -1389,7 +1409,8 @@
           "lhs": {
             "global_ID": "V_123",
             "latex": "{R}{_{}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_17.png"
         }
       },
       "imported": false,
@@ -1444,7 +1465,8 @@
           "lhs": {
             "global_ID": "V_124",
             "latex": "{{C_p}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_18.png"
         },
         "E_117": {
           "rhs": {
@@ -1463,7 +1485,8 @@
           "lhs": {
             "global_ID": "V_124",
             "latex": "{{C_p}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_117.png"
         }
       },
       "imported": false,
@@ -1520,7 +1543,8 @@
           "lhs": {
             "global_ID": "V_125",
             "latex": "{{C_V}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_19.png"
         }
       },
       "imported": false,
@@ -1652,7 +1676,8 @@
           "lhs": {
             "global_ID": "V_136",
             "latex": "{h}{_{N, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_29.png"
         }
       },
       "imported": false,
@@ -1710,7 +1735,8 @@
           "lhs": {
             "global_ID": "V_137",
             "latex": "{m}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_30.png"
         }
       },
       "imported": false,
@@ -1767,7 +1793,8 @@
           "lhs": {
             "global_ID": "V_138",
             "latex": "{c}{_{N, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_31.png"
         }
       },
       "imported": false,
@@ -1824,7 +1851,8 @@
           "lhs": {
             "global_ID": "V_139",
             "latex": "{{n^t}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_32.png"
         }
       },
       "imported": false,
@@ -1920,7 +1948,8 @@
           "lhs": {
             "global_ID": "V_140",
             "latex": "{x}{_{N, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_33.png"
         }
       },
       "imported": false,
@@ -1978,7 +2007,8 @@
           "lhs": {
             "global_ID": "V_141",
             "latex": "{{c_p}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_34.png"
         },
         "E_120": {
           "rhs": {
@@ -1997,7 +2027,8 @@
           "lhs": {
             "global_ID": "V_141",
             "latex": "{{c_p}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_120.png"
         }
       },
       "imported": false,
@@ -2054,7 +2085,8 @@
           "lhs": {
             "global_ID": "V_142",
             "latex": "{{c_V}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_35.png"
         }
       },
       "imported": false,
@@ -2111,7 +2143,8 @@
           "lhs": {
             "global_ID": "V_143",
             "latex": "{{\\rho}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_36.png"
         }
       },
       "imported": false,
@@ -2205,7 +2238,8 @@
           "lhs": {
             "global_ID": "V_148",
             "latex": "{{A_{xy}}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_40.png"
         }
       },
       "imported": false,
@@ -2262,7 +2296,8 @@
           "lhs": {
             "global_ID": "V_149",
             "latex": "{{A_{xz}}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_41.png"
         }
       },
       "imported": false,
@@ -2358,7 +2393,8 @@
           "lhs": {
             "global_ID": "V_150",
             "latex": "{{A_{yz}}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_42.png"
         }
       },
       "imported": false,
@@ -2417,7 +2453,8 @@
           "lhs": {
             "global_ID": "V_151",
             "latex": "{{\\hat{q}_x}}{_{A}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_43.png"
         }
       },
       "imported": false,
@@ -2476,7 +2513,8 @@
           "lhs": {
             "global_ID": "V_152",
             "latex": "{{\\hat{q}_y}}{_{A}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_44.png"
         }
       },
       "imported": false,
@@ -2535,7 +2573,8 @@
           "lhs": {
             "global_ID": "V_153",
             "latex": "{{\\hat{q}_z}}{_{A}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_45.png"
         }
       },
       "imported": false,
@@ -2594,7 +2633,8 @@
           "lhs": {
             "global_ID": "V_154",
             "latex": "{{\\hat{n}^{d}_x}}{_{A, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_46.png"
         },
         "E_89": {
           "rhs": {
@@ -2615,7 +2655,8 @@
           "lhs": {
             "global_ID": "V_154",
             "latex": "{{\\hat{n}^{d}_x}}{_{A, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_89.png"
         }
       },
       "imported": false,
@@ -2675,7 +2716,8 @@
           "lhs": {
             "global_ID": "V_155",
             "latex": "{{\\hat{n}^{d}_y}}{_{A, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_47.png"
         },
         "E_90": {
           "rhs": {
@@ -2696,7 +2738,8 @@
           "lhs": {
             "global_ID": "V_155",
             "latex": "{{\\hat{n}^{d}_y}}{_{A, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_90.png"
         }
       },
       "imported": false,
@@ -2756,7 +2799,8 @@
           "lhs": {
             "global_ID": "V_156",
             "latex": "{{\\hat{n}^{d}_z}}{_{A, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_48.png"
         },
         "E_91": {
           "rhs": {
@@ -2777,7 +2821,8 @@
           "lhs": {
             "global_ID": "V_156",
             "latex": "{{\\hat{n}^{d}_z}}{_{A, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_91.png"
         }
       },
       "imported": false,
@@ -2835,7 +2880,8 @@
           "lhs": {
             "global_ID": "V_157",
             "latex": "{d}{_{A}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_49.png"
         }
       },
       "imported": false,
@@ -2894,7 +2940,8 @@
           "lhs": {
             "global_ID": "V_158",
             "latex": "{c}{_{A, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_50.png"
         }
       },
       "imported": false,
@@ -2955,7 +3002,8 @@
           "lhs": {
             "global_ID": "V_159",
             "latex": "{{\\hat{V}}}{_{A}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_51.png"
         }
       },
       "imported": false,
@@ -3049,7 +3097,8 @@
           "lhs": {
             "global_ID": "V_160",
             "latex": "{{\\hat{n}^c_x}}{_{A, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_52.png"
         }
       },
       "imported": false,
@@ -3107,7 +3156,8 @@
           "lhs": {
             "global_ID": "V_161",
             "latex": "{{\\mu^o}}{_{N, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_53.png"
         }
       },
       "imported": false,
@@ -3165,7 +3215,8 @@
           "lhs": {
             "global_ID": "V_162",
             "latex": "{\\_c}{_{I, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_55.png"
         }
       },
       "imported": true,
@@ -3224,7 +3275,8 @@
           "lhs": {
             "global_ID": "V_163",
             "latex": "{c}{_{N, S, p}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_56.png"
         }
       },
       "imported": true,
@@ -3283,7 +3335,8 @@
           "lhs": {
             "global_ID": "V_164",
             "latex": "{\\_x}{_{I, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_57.png"
         }
       },
       "imported": true,
@@ -3342,7 +3395,8 @@
           "lhs": {
             "global_ID": "V_165",
             "latex": "{x}{_{N, S, p}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_58.png"
         }
       },
       "imported": true,
@@ -3401,7 +3455,8 @@
           "lhs": {
             "global_ID": "V_166",
             "latex": "{\\_T}{_{I}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_59.png"
         }
       },
       "imported": true,
@@ -3459,7 +3514,8 @@
           "lhs": {
             "global_ID": "V_167",
             "latex": "{T}{_{N, p}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_60.png"
         }
       },
       "imported": true,
@@ -3517,7 +3573,8 @@
           "lhs": {
             "global_ID": "V_168",
             "latex": "{f}{_{N, S, K, p}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_61.png"
         }
       },
       "imported": false,
@@ -3576,7 +3633,8 @@
           "lhs": {
             "global_ID": "V_169",
             "latex": "{\\xi}{_{N, K, p}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_62.png"
         }
       },
       "imported": false,
@@ -3712,7 +3770,8 @@
           "lhs": {
             "global_ID": "V_180",
             "latex": "{{k^d_x}}{_{A, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_73.png"
         }
       },
       "imported": false,
@@ -3773,7 +3832,8 @@
           "lhs": {
             "global_ID": "V_181",
             "latex": "{{k^d_y}}{_{A, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_74.png"
         }
       },
       "imported": false,
@@ -3834,7 +3894,8 @@
           "lhs": {
             "global_ID": "V_182",
             "latex": "{{k^d_z}}{_{A, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_75.png"
         }
       },
       "imported": false,
@@ -3897,7 +3958,8 @@
           "lhs": {
             "global_ID": "V_183",
             "latex": "{{k^c_x}}{_{A}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_76.png"
         }
       },
       "imported": false,
@@ -3959,7 +4021,8 @@
           "lhs": {
             "global_ID": "V_184",
             "latex": "{{k^c_y}}{_{A}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_77.png"
         }
       },
       "imported": false,
@@ -4021,7 +4084,8 @@
           "lhs": {
             "global_ID": "V_185",
             "latex": "{{k^c_z}}{_{A}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_78.png"
         }
       },
       "imported": false,
@@ -4080,7 +4144,8 @@
           "lhs": {
             "global_ID": "V_186",
             "latex": "{{k^q_x}}{_{A}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_79.png"
         }
       },
       "imported": false,
@@ -4139,7 +4204,8 @@
           "lhs": {
             "global_ID": "V_187",
             "latex": "{{k^q_y}}{_{A}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_80.png"
         }
       },
       "imported": false,
@@ -4198,7 +4264,8 @@
           "lhs": {
             "global_ID": "V_188",
             "latex": "{{k^q_z}}{_{A}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_81.png"
         }
       },
       "imported": false,
@@ -4255,7 +4322,8 @@
           "lhs": {
             "global_ID": "V_189",
             "latex": "{{\\rho}}{_{A}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_82.png"
         }
       },
       "imported": false,
@@ -4354,7 +4422,8 @@
           "lhs": {
             "global_ID": "V_190",
             "latex": "{{\\hat{k}^{d,Fick}_x}}{_{A, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_83.png"
         }
       },
       "imported": false,
@@ -4415,7 +4484,8 @@
           "lhs": {
             "global_ID": "V_191",
             "latex": "{{\\hat{k}^{d,Fick}_y}}{_{A, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_84.png"
         }
       },
       "imported": false,
@@ -4476,7 +4546,8 @@
           "lhs": {
             "global_ID": "V_192",
             "latex": "{{\\hat{k}^{d,Fick}_z}}{_{A, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_85.png"
         }
       },
       "imported": false,
@@ -4534,7 +4605,8 @@
           "lhs": {
             "global_ID": "V_193",
             "latex": "{h}{_{A, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_86.png"
         }
       },
       "imported": false,
@@ -4592,7 +4664,8 @@
           "lhs": {
             "global_ID": "V_194",
             "latex": "{{\\dot{n}^c_x}}{_{N, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_87.png"
         }
       },
       "imported": false,
@@ -4650,7 +4723,8 @@
           "lhs": {
             "global_ID": "V_195",
             "latex": "{{\\dot{n}^d_x}}{_{N, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_88.png"
         }
       },
       "imported": false,
@@ -4710,7 +4784,8 @@
           "lhs": {
             "global_ID": "V_196",
             "latex": "{{\\dot{n}}}{_{N, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_92.png"
         }
       },
       "imported": false,
@@ -4844,7 +4919,8 @@
           "lhs": {
             "global_ID": "V_199",
             "latex": "{K}{_{N, K, p}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_94.png"
         }
       },
       "imported": false,
@@ -4982,7 +5058,8 @@
           "lhs": {
             "global_ID": "V_200",
             "latex": "{{\\tilde{n}}}{_{N, S, q}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_95.png"
         }
       },
       "imported": false,
@@ -5042,7 +5119,8 @@
           "lhs": {
             "global_ID": "V_201",
             "latex": "{\\_np}{_{I, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_96.png"
         }
       },
       "imported": true,
@@ -5100,7 +5178,8 @@
           "lhs": {
             "global_ID": "V_202",
             "latex": "{{\\tilde{n}}}{_{N, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_97.png"
         }
       },
       "imported": true,
@@ -5158,7 +5237,8 @@
           "lhs": {
             "global_ID": "V_203",
             "latex": "{{n^o}}{_{N, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_98.png"
         }
       },
       "imported": false,
@@ -5217,7 +5297,8 @@
           "lhs": {
             "global_ID": "V_204",
             "latex": "{{\\dot{H}^c_x}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_99.png"
         }
       },
       "imported": false,
@@ -5275,7 +5356,8 @@
           "lhs": {
             "global_ID": "V_205",
             "latex": "{{\\dot{H}^d_x}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_100.png"
         }
       },
       "imported": false,
@@ -5333,7 +5415,8 @@
           "lhs": {
             "global_ID": "V_206",
             "latex": "{{\\dot{H}^d_y}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_101.png"
         }
       },
       "imported": false,
@@ -5391,7 +5474,8 @@
           "lhs": {
             "global_ID": "V_207",
             "latex": "{{\\dot{H}^d_z}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_102.png"
         }
       },
       "imported": false,
@@ -5448,7 +5532,8 @@
           "lhs": {
             "global_ID": "V_208",
             "latex": "{{\\dot{q}_x}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_103.png"
         }
       },
       "imported": false,
@@ -5505,7 +5590,8 @@
           "lhs": {
             "global_ID": "V_209",
             "latex": "{{\\dot{q}_y}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_104.png"
         }
       },
       "imported": false,
@@ -5601,7 +5687,8 @@
           "lhs": {
             "global_ID": "V_210",
             "latex": "{{\\dot{q}_z}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_105.png"
         }
       },
       "imported": false,
@@ -5658,7 +5745,8 @@
           "lhs": {
             "global_ID": "V_211",
             "latex": "{{\\hat{w}}}{_{A}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_106.png"
         }
       },
       "imported": false,
@@ -5715,7 +5803,8 @@
           "lhs": {
             "global_ID": "V_212",
             "latex": "{{\\dot{n}^d_y}}{_{N, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_107.png"
         }
       },
       "imported": false,
@@ -5773,7 +5862,8 @@
           "lhs": {
             "global_ID": "V_213",
             "latex": "{{\\dot{n}^d_z}}{_{N, S}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_108.png"
         }
       },
       "imported": false,
@@ -5831,7 +5921,8 @@
           "lhs": {
             "global_ID": "V_214",
             "latex": "{{\\dot{w}}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_109.png"
         }
       },
       "imported": false,
@@ -5894,7 +5985,8 @@
           "lhs": {
             "global_ID": "V_215",
             "latex": "{{\\dot{H}}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_110.png"
         }
       },
       "imported": false,
@@ -5951,7 +6043,8 @@
           "lhs": {
             "global_ID": "V_216",
             "latex": "{{H^o}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_111.png"
         }
       },
       "imported": false,
@@ -6008,7 +6101,8 @@
           "lhs": {
             "global_ID": "V_217",
             "latex": "{{U^e}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_113.png"
         }
       },
       "imported": false,
@@ -6065,7 +6159,8 @@
           "lhs": {
             "global_ID": "V_218",
             "latex": "{{I^e}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_114.png"
         }
       },
       "imported": false,
@@ -6122,7 +6217,8 @@
           "lhs": {
             "global_ID": "V_219",
             "latex": "{{R^e}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_115.png"
         }
       },
       "imported": false,
@@ -6219,7 +6315,8 @@
           "lhs": {
             "global_ID": "V_220",
             "latex": "{{\\dot{U}^e}}{_{A}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_116.png"
         }
       },
       "imported": false,
@@ -6276,7 +6373,8 @@
           "lhs": {
             "global_ID": "V_222",
             "latex": "{{T^{ref}}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_119.png"
         }
       },
       "imported": false,
@@ -6333,7 +6431,8 @@
           "lhs": {
             "global_ID": "V_223",
             "latex": "{{T^n}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_122.png"
         }
       },
       "imported": false,
@@ -6390,7 +6489,8 @@
           "lhs": {
             "global_ID": "V_224",
             "latex": "{{\\bar{T}}}{_{N}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_123.png"
         }
       },
       "imported": false,
@@ -6484,7 +6584,8 @@
           "lhs": {
             "global_ID": "V_234",
             "latex": "{{\\hat{m}}}{_{N, A}}"
-          }
+          },
+          "png_file": "/home/heinz/1_Gits/CAM12/Ontology_Repository/processes_distributed_001/LaTeX/E_133.png"
         }
       },
       "imported": false,
@@ -6539,6 +6640,124 @@
       "units": [
         0,
         1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_244": {
+      "IRI": "promo:_mv_I",
+      "aliases": {
+        "matlab": "_mv_I",
+        "latex": "\\_mv\\_I",
+        "internal_code": "_mv_I",
+        "global_ID": "V_244"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_244",
+        "latex": "{\\_mv\\_I}{_{I}}"
+      },
+      "created": "2026-03-18 16:22:51",
+      "doc": "link variable _mv_I to interface macroscopic >>> control with source:node",
+      "equations": {
+        "E_143": {
+          "rhs": {
+            "global_ID": " V_3  O_5 I_1 V_224",
+            "latex": "{{F^{source}}}{_{N, I}} \\stackrel{N}{\\star} {{\\bar{T}}}{_{N}}"
+          },
+          "type": "interface_link_equation",
+          "doc": "interface equation",
+          "network": "macroscopic >>> control",
+          "incidence_list": [
+            "V_224",
+            "V_3"
+          ],
+          "created": "2026-03-18 16:22:51",
+          "modified": "2026-03-18 16:22:51",
+          "lhs": {
+            "global_ID": "V_244",
+            "latex": "{\\_mv\\_I}{_{I}}"
+          },
+          "png_file": null
+        }
+      },
+      "imported": true,
+      "index_structures": [
+        "I_3"
+      ],
+      "label": "_mv_I",
+      "memory": "node",
+      "modified": "2026-03-18 16:22:51",
+      "network": "macroscopic >>> control",
+      "port_variable": false,
+      "tokens": [],
+      "type": "get",
+      "units": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_245": {
+      "IRI": "promo:T_meas",
+      "aliases": {
+        "matlab": "T_meas",
+        "latex": "T_meas",
+        "internal_code": "T_meas",
+        "global_ID": "V_245"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_245",
+        "latex": "{T_meas}{_{N, p}}"
+      },
+      "created": "2026-03-18 16:23:06",
+      "doc": "link variable _mv_I to interface control",
+      "equations": {
+        "E_144": {
+          "rhs": {
+            "global_ID": " D_0 V_4 O_4 V_244 D_1  O_5 I_3 V_9",
+            "latex": "\\left({{F^{sink}}}{_{N, I}} \\, . \\, {\\_mv\\_I}{_{I}}\\right) \\stackrel{I}{\\star} {{S}}{_{I, p}}"
+          },
+          "type": "interface_link_equation",
+          "doc": "interface equation",
+          "network": "control",
+          "incidence_list": [
+            "V_244",
+            "V_4",
+            "V_9"
+          ],
+          "created": "2026-03-18 16:23:06",
+          "modified": "2026-03-18 16:23:06",
+          "lhs": {
+            "global_ID": "V_245",
+            "latex": "{T_meas}{_{N, p}}"
+          },
+          "png_file": null
+        }
+      },
+      "imported": true,
+      "index_structures": [
+        "I_1",
+        "I_7"
+      ],
+      "label": "T_meas",
+      "memory": "node",
+      "modified": "2026-03-18 16:23:06",
+      "network": "control",
+      "port_variable": false,
+      "tokens": [],
+      "type": "algebraic",
+      "units": [
+        0,
+        0,
         0,
         0,
         0,
@@ -7227,7 +7446,7 @@
     }
   },
   "Ontology_global_IDs": {
-    "variable": 243,
-    "equation": 142
+    "variable": 245,
+    "equation": 144
   }
 }
