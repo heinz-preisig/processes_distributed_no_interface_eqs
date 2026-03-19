@@ -4,9 +4,9 @@
 \contentsline {section}{\numberline {4} macroscopic }{7}{section.4}%
 \contentsline {section}{\numberline {5} reactions }{12}{section.5}%
 \contentsline {section}{\numberline {6} control }{13}{section.6}%
-\contentsline {section}{\numberline {7} reactions--macroscopic }{14}{section.7}%
+\contentsline {section}{\numberline {7} macroscopic--control }{14}{section.7}%
 \contentsline {section}{\numberline {8} macroscopic--reactions }{15}{section.8}%
-\contentsline {section}{\numberline {9} macroscopic--control }{16}{section.9}%
+\contentsline {section}{\numberline {9} reactions--macroscopic }{16}{section.9}%
 \contentsline {section}{\numberline {10}Equations}{17}{section.10}%
 \contentsline {section}{\numberline {11} Generic }{17}{section.11}%
 \contentsline {section}{\numberline {12} Interface Link Equation }{24}{section.12}%
