@@ -829,7 +829,10 @@
     ],
     "normed_network": {
       "control": true,
-      "macroscopic": false
+      "fluid": false,
+      "info_processing": false,
+      "macroscopic": false,
+      "root": false
     },
     "numerical_value": "value",
     "variable_classes_being_state_variables": [],
