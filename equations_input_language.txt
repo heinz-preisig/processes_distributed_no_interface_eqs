@@ -1,0 +1,6 @@
+
+E_1 - interface - interface ::
+physical_n =  n
+
+E_2 - control - algebraic ::
+n =  bla......n........

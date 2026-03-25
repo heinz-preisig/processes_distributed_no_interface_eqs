@@ -1,0 +1,19 @@
+List of Equations in Sequence Order
+==================================================
+
+Equation ID: E_1
+  Type: generic
+  Network: interface
+  RHS Global ID: V_2
+  RHS Internal: N/A
+  RHS LaTeX: {n}{_{N, S}}
+  Documentation: Interface equation linking physical_n to physical.n
+
+Equation ID: E_2
+  Type: generic
+  Network: control
+  RHS Global ID:  n
+  RHS Internal: N/A
+  RHS LaTeX:  n
+  Documentation: 
+
