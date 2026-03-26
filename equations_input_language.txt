@@ -4,3 +4,9 @@ physical_n =  n
 
 E_2 - control - algebraic ::
 n =  bla......n........
+
+E_3 - physical - constant ::
+nt =  Instantiate ( n , value )
+
+E_5 - physical - observation ::
+xx =  n . inv ( n )

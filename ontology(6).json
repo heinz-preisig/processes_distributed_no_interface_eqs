@@ -795,14 +795,16 @@
   },
   "rules": {
     "are_constants": [
+      "constant",
+      "constant",
       "constant"
     ],
     "are_persistent_variables": [
+      "state",
+      "state",
       "state"
     ],
-    "is_visible_in_interface": [
-      "observation"
-    ],
+    "is_visible_in_interface": [],
     "name_space": false,
     "network_enable_adding_indices": {
       "control": true,

@@ -178,11 +178,11 @@ def
 %%EndSetup
 setupLatin1
 %%Page: 1 1
-%%PageBoundingBox: 36 36 130 295
+%%PageBoundingBox: 36 36 130 515
 %%PageOrientation: Portrait
 0 0 1 beginpage
 gsave
-36 36 94 259 boxprim clip newpath
+36 36 94 479 boxprim clip newpath
 1 1 set_scale 0 rotate 40 40 translate
 0 0 0 graphcolor
 14 /Times-Roman set_font
@@ -213,9 +213,35 @@ closepath stroke
 14 /Times-Roman set_font
 30.5 227.8 moveto 25 (state) alignedtext
 grestore
+% cluster_reactions___constant
+gsave
+1 setlinewidth
+0 0 0 graphcolor
+newpath 8 251 moveto
+8 380 lineto
+78 380 lineto
+78 251 lineto
+closepath stroke
+0 0 0 graphcolor
+14 /Times-Roman set_font
+20 364.8 moveto 46 (constant) alignedtext
+grestore
+% cluster_reactions___observation
+gsave
+1 setlinewidth
+0 0 0 graphcolor
+newpath 3 388 moveto
+3 463 lineto
+83 463 lineto
+83 388 lineto
+closepath stroke
+0 0 0 graphcolor
+14 /Times-Roman set_font
+11 447.8 moveto 64 (observation) alignedtext
+grestore
 % V_1
 gsave
-0.49804 1 1 nodecolor
+0.49804 0.12157 0.80392 nodecolor
 43 57 27 18 ellipse_path fill
 3 setlinewidth
 filled
@@ -227,7 +253,7 @@ filled
 grestore
 % V_2
 gsave
-0.49804 0.12157 1 nodecolor
+0.40392 0.66667 0.5451 nodecolor
 43 194 27 18 ellipse_path fill
 3 setlinewidth
 filled
@@ -239,7 +265,7 @@ filled
 grestore
 % V_3
 gsave
-0.49804 0.12157 1 nodecolor
+0.40392 0.66667 0.5451 nodecolor
 43 140 27 18 ellipse_path fill
 3 setlinewidth
 filled
@@ -249,6 +275,42 @@ filled
 12 /Times-Roman set_font
 38 136.9 moveto 10 (V) alignedtext
 grestore
+% V_6
+gsave
+0.023529 0.72157 1 nodecolor
+43 331 27 18 ellipse_path fill
+3 setlinewidth
+filled
+0 0 0 nodecolor
+43 331 27 18 ellipse_path stroke
+0 0 0 nodecolor
+12 /Times-Roman set_font
+30 327.9 moveto 26 (value) alignedtext
+grestore
+% V_7
+gsave
+0.023529 0.72157 1 nodecolor
+43 277 27 18 ellipse_path fill
+3 setlinewidth
+filled
+0 0 0 nodecolor
+43 277 27 18 ellipse_path stroke
+0 0 0 nodecolor
+12 /Times-Roman set_font
+38 273.9 moveto 10 (nt) alignedtext
+grestore
+% V_9
+gsave
+0.49804 0.12157 0.93333 nodecolor
+43 414 27 18 ellipse_path fill
+3 setlinewidth
+filled
+0 0 0 nodecolor
+43 414 27 18 ellipse_path stroke
+0 0 0 nodecolor
+12 /Times-Roman set_font
+36.5 410.9 moveto 13 (xx) alignedtext
+grestore
 endpage
 showpage
 grestore
@@ -256,7 +318,7 @@ grestore
 %%EndPage: 1
 %%Trailer
 %%Pages: 1
-%%BoundingBox: 36 36 130 295
+%%BoundingBox: 36 36 130 515
 end
 restore
 %%EOF

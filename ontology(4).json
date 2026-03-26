@@ -795,13 +795,14 @@
   },
   "rules": {
     "are_constants": [
+      "constant",
+      "constant",
       "constant"
     ],
     "are_persistent_variables": [
+      "state",
+      "state",
       "state"
-    ],
-    "is_visible_in_interface": [
-      "observation"
     ],
     "name_space": false,
     "network_enable_adding_indices": {
@@ -831,11 +832,9 @@
     ],
     "normed_network": {
       "control": true,
-      "energy": false,
       "fluid": false,
       "info_processing": false,
       "macroscopic": false,
-      "physical": false,
       "root": false
     },
     "numerical_value": "value",
@@ -857,8 +856,7 @@
       "state",
       "transport",
       "algebraic",
-      "frame",
-      "algebraic"
+      "frame"
     ]
   },
   "version": "3"

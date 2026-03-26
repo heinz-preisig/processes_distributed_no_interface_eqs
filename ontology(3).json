@@ -798,10 +798,8 @@
       "constant"
     ],
     "are_persistent_variables": [
+      "state",
       "state"
-    ],
-    "is_visible_in_interface": [
-      "observation"
     ],
     "name_space": false,
     "network_enable_adding_indices": {
@@ -831,11 +829,9 @@
     ],
     "normed_network": {
       "control": true,
-      "energy": false,
       "fluid": false,
       "info_processing": false,
       "macroscopic": false,
-      "physical": false,
       "root": false
     },
     "numerical_value": "value",
@@ -855,10 +851,7 @@
       "differenceOperator",
       "frame",
       "state",
-      "transport",
-      "algebraic",
-      "frame",
-      "algebraic"
+      "transport"
     ]
   },
   "version": "3"

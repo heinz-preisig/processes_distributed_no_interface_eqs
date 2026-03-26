@@ -795,12 +795,17 @@
   },
   "rules": {
     "are_constants": [
+      "constant",
+      "constant",
       "constant"
     ],
     "are_persistent_variables": [
+      "state",
+      "state",
       "state"
     ],
     "is_visible_in_interface": [
+      "observation",
       "observation"
     ],
     "name_space": false,

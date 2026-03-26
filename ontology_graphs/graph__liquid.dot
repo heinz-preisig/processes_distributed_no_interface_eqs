@@ -29,19 +29,21 @@ rankdir=LR;
 subgraph cluster_liquid___frame {
 label=frame;
 rankdir=LR;
-V_1 [fillcolor=cyan, fontsize=12, label=t, penwidth=3, style=filled];
+V_1 [fillcolor=lightcyan3, fontsize=12, label=t, penwidth=3, style=filled];
 }
 
 subgraph cluster_liquid___state {
 label=state;
 rankdir=LR;
-V_2 [fillcolor=lightcyan1, fontsize=12, label=n, penwidth=3, style=filled];
-V_3 [fillcolor=lightcyan1, fontsize=12, label=V, penwidth=3, style=filled];
+V_2 [fillcolor=seagreen4, fontsize=12, label=n, penwidth=3, style=filled];
+V_3 [fillcolor=seagreen4, fontsize=12, label=V, penwidth=3, style=filled];
 }
 
 subgraph cluster_liquid___constant {
 label=constant;
 rankdir=LR;
+V_6 [fillcolor=tomato, fontsize=12, label=value, penwidth=3, style=filled];
+V_7 [fillcolor=tomato, fontsize=12, label=nt, penwidth=3, style=filled];
 }
 
 subgraph cluster_liquid___effort {
@@ -77,6 +79,7 @@ rankdir=LR;
 subgraph cluster_liquid___observation {
 label=observation;
 rankdir=LR;
+V_9 [fillcolor=lightcyan2, fontsize=12, label=xx, penwidth=3, style=filled];
 }
 
 }

@@ -17,3 +17,19 @@ Equation ID: E_2
   RHS LaTeX:  n
   Documentation: 
 
+Equation ID: E_3
+  Type: generic
+  Network: physical
+  RHS Global ID:  O_10 D_0 V_2 D_7 V_6 D_1
+  RHS Internal: N/A
+  RHS LaTeX: \textbf{Instantiate}({n}{_{N, S}}, {value}{_{}})
+  Documentation: 
+
+Equation ID: E_4
+  Type: generic
+  Network: physical
+  RHS Global ID:  V_2 O_4 F_15 D_0 V_7 D_1
+  RHS Internal: N/A
+  RHS LaTeX: {n}{_{N, S}} \, . \, \left( {nt}{_{N, S}} \right)^{-1}
+  Documentation: 
+
