@@ -19,7 +19,7 @@ rankdir=LR;
 subgraph cluster_physical___state {
 label=state;
 rankdir=LR;
-V_1 [fillcolor=lightcyan2, fontsize=12, label=n, penwidth=3, style=filled];
+V_1 [fillcolor=white, fontsize=12, label=n, penwidth=3, style=filled];
 }
 
 subgraph cluster_physical___constant {
@@ -55,7 +55,6 @@ rankdir=LR;
 subgraph cluster_physical___observation {
 label=observation;
 rankdir=LR;
-V_2 [fillcolor=seagreen, fontsize=12, label=m, penwidth=3, style=filled];
 }
 
 }

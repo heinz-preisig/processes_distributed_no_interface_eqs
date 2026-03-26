@@ -98,72 +98,72 @@ V_V_1.temperature = [ units[4] ]
 V_V_1.current = [ units[5] ]
 V_V_1.light = [ units[6] ]
 
-# V_2
-label = variables[V_2]["label"]
-network = variables[V_2]["network"]
-variable_type = variables[V_2]["type"]
-label = variables[V_2]["label"]
-doc = variables[V_2]["doc"]
-onto_ID = "V_V_2"
-V_V_2 = onto.ProMoVar( onto_ID )
-V_V_2.label = label
-V_V_2.network = network
-V_V_2.variable_type = variable_type
-V_V_2.comment = doc
+# V_4
+label = variables[V_4]["label"]
+network = variables[V_4]["network"]
+variable_type = variables[V_4]["type"]
+label = variables[V_4]["label"]
+doc = variables[V_4]["doc"]
+onto_ID = "V_V_4"
+V_V_4 = onto.ProMoVar( onto_ID )
+V_V_4.label = label
+V_V_4.network = network
+V_V_4.variable_type = variable_type
+V_V_4.comment = doc
 
-units = variables[V_2]["units"].asList()
-V_V_2.time = [ units[0] ]
-V_V_2.length = [ units[1] ]
-V_V_2.amount = [ units[2] ]
-V_V_2.mass = [ units[3] ]
-V_V_2.temperature = [ units[4] ]
-V_V_2.current = [ units[5] ]
-V_V_2.light = [ units[6] ]
+units = variables[V_4]["units"].asList()
+V_V_4.time = [ units[0] ]
+V_V_4.length = [ units[1] ]
+V_V_4.amount = [ units[2] ]
+V_V_4.mass = [ units[3] ]
+V_V_4.temperature = [ units[4] ]
+V_V_4.current = [ units[5] ]
+V_V_4.light = [ units[6] ]
 
-# V_3
-label = variables[V_3]["label"]
-network = variables[V_3]["network"]
-variable_type = variables[V_3]["type"]
-label = variables[V_3]["label"]
-doc = variables[V_3]["doc"]
-onto_ID = "V_V_3"
-V_V_3 = onto.ProMoVar( onto_ID )
-V_V_3.label = label
-V_V_3.network = network
-V_V_3.variable_type = variable_type
-V_V_3.comment = doc
+# V_5
+label = variables[V_5]["label"]
+network = variables[V_5]["network"]
+variable_type = variables[V_5]["type"]
+label = variables[V_5]["label"]
+doc = variables[V_5]["doc"]
+onto_ID = "V_V_5"
+V_V_5 = onto.ProMoVar( onto_ID )
+V_V_5.label = label
+V_V_5.network = network
+V_V_5.variable_type = variable_type
+V_V_5.comment = doc
 
-units = variables[V_3]["units"].asList()
-V_V_3.time = [ units[0] ]
-V_V_3.length = [ units[1] ]
-V_V_3.amount = [ units[2] ]
-V_V_3.mass = [ units[3] ]
-V_V_3.temperature = [ units[4] ]
-V_V_3.current = [ units[5] ]
-V_V_3.light = [ units[6] ]
+units = variables[V_5]["units"].asList()
+V_V_5.time = [ units[0] ]
+V_V_5.length = [ units[1] ]
+V_V_5.amount = [ units[2] ]
+V_V_5.mass = [ units[3] ]
+V_V_5.temperature = [ units[4] ]
+V_V_5.current = [ units[5] ]
+V_V_5.light = [ units[6] ]
 
 # functions assignments
 
 #V_1
 
 V_V_1.has_function = []
-#V_2
+#V_4
 
-V_V_2.has_function = []
+V_V_4.has_function = []
 incidence_list = []
 incidence_list.append( V_1 )
 incidence_list.append( V_1 )
-F_ID = "F_E_1"
-F_E_1 = onto.function( F_ID )
-F_E_1.is_function_of = incidence_list
-V_V_2.has_function.append( F_E_1 )
-#V_3
+F_ID = "F_E_3"
+F_E_3 = onto.function( F_ID )
+F_E_3.is_function_of = incidence_list
+V_V_4.has_function.append( F_E_3 )
+#V_5
 
-V_V_3.has_function = []
+V_V_5.has_function = []
 incidence_list = []
-F_ID = "F_E_2"
-F_E_2 = onto.function( F_ID )
-F_E_2.is_function_of = incidence_list
-V_V_3.has_function.append( F_E_2 )
+F_ID = "F_E_4"
+F_E_4 = onto.function( F_ID )
+F_E_4.is_function_of = incidence_list
+V_V_5.has_function.append( F_E_4 )
 
 onto.save("variables.owl")

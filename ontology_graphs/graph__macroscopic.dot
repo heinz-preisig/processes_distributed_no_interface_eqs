@@ -34,7 +34,7 @@ rankdir=LR;
 subgraph cluster_macroscopic___state {
 label=state;
 rankdir=LR;
-V_1 [fillcolor=lightcyan2, fontsize=12, label=n, penwidth=3, style=filled];
+V_1 [fillcolor=white, fontsize=12, label=n, penwidth=3, style=filled];
 }
 
 subgraph cluster_macroscopic___constant {
@@ -72,13 +72,13 @@ label=controlInput;
 rankdir=LR;
 }
 
-E_1 -> V_1  [splines=ortho];
+E_3 -> V_1  [splines=ortho];
 subgraph cluster_macroscopic___observation {
 label=observation;
 rankdir=LR;
-V_2 [fillcolor=seagreen, fontsize=12, label=m, penwidth=3, style=filled];
-E_1 [fillcolor=pink, fontsize=12, shape=box, style=filled];
-E_1 -> V_2  [splines=ortho];
+V_4 [fillcolor=seagreen, fontsize=12, label=m, penwidth=3, style=filled];
+E_3 [fillcolor=pink, fontsize=12, shape=box, style=filled];
+E_3 -> V_4  [splines=ortho];
 }
 
 }
