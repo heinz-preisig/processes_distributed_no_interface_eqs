@@ -1,7 +1,7 @@
 List of Equations in Sequence Order
 ==================================================
 
-Equation ID: E_1
+Equation ID: E_3
   Type: generic
   Network: macroscopic
   RHS Global ID:  V_1 O_4 F_15 D_0 V_1 D_1
@@ -9,7 +9,7 @@ Equation ID: E_1
   RHS LaTeX: {n}{_{N, S}} \, . \, \left( {n}{_{N, S}} \right)^{-1}
   Documentation: 
 
-Equation ID: E_2
+Equation ID: E_4
   Type: generic
   Network: interface
   RHS Global ID:  m
