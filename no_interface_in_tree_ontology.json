@@ -326,44 +326,6 @@
       },
       "type": "inter"
     },
-    "interface": {
-      "behaviour": {
-        "arc": [
-          "interface"
-        ],
-        "graph": [
-          "network"
-        ],
-        "node": [
-          "frame",
-          "state",
-          "constant"
-        ]
-      },
-      "children": [],
-      "name": "interface",
-      "parents": [
-        "root"
-      ],
-      "structure": {
-        "arc": {
-          "information": {
-            "link": [
-              "unidirectional"
-            ]
-          }
-        },
-        "node": {
-          "constant": [],
-          "dynamic": [],
-          "event": []
-        },
-        "token": {
-          "information": []
-        }
-      },
-      "type": "intra"
-    },
     "liquid": {
       "behaviour": {
         "arc": [
@@ -738,8 +700,7 @@
       "children": [
         "physical",
         "control",
-        "info_processing",
-        "interface"
+        "info_processing"
       ],
       "name": "root",
       "parents": [],
@@ -849,7 +810,6 @@
       "fluid": false,
       "gas": false,
       "info_processing": false,
-      "interface": false,
       "liquid": false,
       "macroscopic": false,
       "microscopic": false,
@@ -874,7 +834,6 @@
       "energy": false,
       "fluid": false,
       "info_processing": false,
-      "interface": false,
       "macroscopic": false,
       "physical": false,
       "root": false
