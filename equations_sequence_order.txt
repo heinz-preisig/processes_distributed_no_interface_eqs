@@ -3,33 +3,17 @@ List of Equations in Sequence Order
 
 Equation ID: E_1
   Type: generic
-  Network: interface
-  RHS Global ID: V_2
+  Network: macroscopic
+  RHS Global ID:  V_1 O_4 F_15 D_0 V_1 D_1
   RHS Internal: N/A
-  RHS LaTeX: {n}{_{N, S}}
-  Documentation: Interface equation linking physical_n to physical.n
+  RHS LaTeX: {n}{_{N, S}} \, . \, \left( {n}{_{N, S}} \right)^{-1}
+  Documentation: 
 
 Equation ID: E_2
   Type: generic
-  Network: control
-  RHS Global ID:  n
+  Network: interface
+  RHS Global ID:  m
   RHS Internal: N/A
-  RHS LaTeX:  n
-  Documentation: 
-
-Equation ID: E_3
-  Type: generic
-  Network: physical
-  RHS Global ID:  O_10 D_0 V_2 D_7 V_6 D_1
-  RHS Internal: N/A
-  RHS LaTeX: \textbf{Instantiate}({n}{_{N, S}}, {value}{_{}})
-  Documentation: 
-
-Equation ID: E_4
-  Type: generic
-  Network: physical
-  RHS Global ID:  V_2 O_4 F_15 D_0 V_7 D_1
-  RHS Internal: N/A
-  RHS LaTeX: {n}{_{N, S}} \, . \, \left( {nt}{_{N, S}} \right)^{-1}
-  Documentation: 
+  RHS LaTeX:  m
+  Documentation: Interface equation for m
 

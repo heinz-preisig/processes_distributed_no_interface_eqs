@@ -24,7 +24,6 @@ rankdir=LR;
 subgraph cluster_control___frame {
 label=frame;
 rankdir=LR;
-V_1 [fillcolor=lightcyan3, fontsize=12, label=t, penwidth=3, style=filled];
 }
 
 subgraph cluster_control___state {
@@ -35,7 +34,6 @@ rankdir=LR;
 subgraph cluster_control___constant {
 label=constant;
 rankdir=LR;
-V_6 [fillcolor=tomato, fontsize=12, label=value, penwidth=3, style=filled];
 }
 
 subgraph cluster_control___diffState {
@@ -46,9 +44,6 @@ rankdir=LR;
 subgraph cluster_control___algebraic {
 label=algebraic;
 rankdir=LR;
-V_5 [fillcolor=yellow, fontsize=12, label=n, penwidth=3, style=filled];
-E_2 [fillcolor=pink, fontsize=12, shape=box, style=filled];
-E_2 -> V_5  [splines=ortho];
 }
 
 }

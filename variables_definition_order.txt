@@ -2,62 +2,25 @@ List of Variables in Definition Order
 ==================================================
 
 Variable ID: V_1
-  Label: t
-  Type: frame
-  Network: root
-  Documentation: time
-  Units: [1, 0, 0, 0, 0, 0, 0, 0]
+  Label: n
+  Type: state
+  Network: physical
+  Documentation: mass
+  Units: [0, 0, 1, 0, 0, 0, 0, 0]
 
 Variable ID: V_2
-  Label: n
-  Type: state
-  Network: physical
-  Documentation: species mass
-  Units: [0, 0, 1, 0, 0, 0, 0, 0]
-
-Variable ID: V_3
-  Label: V
-  Type: state
-  Network: physical
-  Documentation: volume
-  Units: [0, 3, 0, 0, 0, 0, 0, 0]
-
-Variable ID: V_4
-  Label: physical_n
-  Type: interface
-  Network: interface
-  Documentation: Interface variable for physical.n
-  Units: [0, 0, 1, 0, 0, 0, 0, 0]
+  Label: m
+  Type: observation
+  Network: macroscopic
+  Documentation: 
+  Units: [0, 0, 0, 0, 0, 0, 0, 0]
   Equations: ['E_1']
 
-Variable ID: V_5
-  Label: n
-  Type: algebraic
-  Network: control
-  Documentation: 
-  Units: [0, 0, 1, 0, 0, 0, 0, 0]
-  Equations: ['E_2']
-
-Variable ID: V_6
-  Label: value
-  Type: constant
-  Network: root
-  Documentation: numerical value
-  Units: [0, 0, 0, 0, 0, 0, 0, 0]
-
-Variable ID: V_7
-  Label: nt
-  Type: constant
-  Network: physical
-  Documentation: 
-  Units: [0, 0, 1, 0, 0, 0, 0, 0]
-  Equations: ['E_3']
-
-Variable ID: V_8
-  Label: xm
+Variable ID: V_3
+  Label: macroscopic_m
   Type: observation
-  Network: physical
-  Documentation: 
+  Network: interface
+  Documentation: Interface variable for m
   Units: [0, 0, 0, 0, 0, 0, 0, 0]
-  Equations: ['E_4']
+  Equations: ['E_2']
 

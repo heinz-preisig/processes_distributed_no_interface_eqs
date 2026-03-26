@@ -38,120 +38,6 @@
         0,
         0
       ]
-    },
-    "V_2": {
-      "IRI": "promo:m",
-      "aliases": {
-        "matlab": "m",
-        "latex": "m",
-        "internal_code": "m",
-        "global_ID": "V_2"
-      },
-      "compiled_lhs": {
-        "global_ID": "V_2",
-        "latex": "{m}{_{N, S}}"
-      },
-      "created": "2026-03-26 13:53:41",
-      "doc": "",
-      "equations": {
-        "E_1": {
-          "rhs": {
-            "global_ID": " V_1 O_4 F_15 D_0 V_1 D_1",
-            "latex": "{n}{_{N, S}} \\, . \\, \\left( {n}{_{N, S}} \\right)^{-1}"
-          },
-          "type": "generic",
-          "doc": "",
-          "network": "macroscopic",
-          "incidence_list": [
-            "V_1"
-          ],
-          "created": "2026-03-26 13:53:41",
-          "modified": "2026-03-26 13:53:41",
-          "lhs": {
-            "global_ID": "V_2",
-            "latex": "{m}{_{N, S}}"
-          },
-          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_1.png"
-        }
-      },
-      "imported": false,
-      "index_structures": [
-        "I_1",
-        "I_3"
-      ],
-      "label": "m",
-      "memory": null,
-      "modified": "2026-03-26 13:53:41",
-      "network": "macroscopic",
-      "port_variable": false,
-      "tokens": [],
-      "type": "observation",
-      "units": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    "V_3": {
-      "IRI": "promo:macroscopic_m",
-      "aliases": {
-        "matlab": "macroscopic_m",
-        "latex": "macroscopic_m",
-        "internal_code": "macroscopic_m",
-        "global_ID": "V_3"
-      },
-      "compiled_lhs": {
-        "global_ID": "V_3",
-        "latex": "{macroscopic_m}{_{N, S}}"
-      },
-      "created": "2026-03-26 13:53:41",
-      "doc": "Interface variable for m",
-      "equations": {
-        "E_2": {
-          "rhs": {
-            "global_ID": " m",
-            "latex": " m"
-          },
-          "type": "generic",
-          "doc": "Interface equation for m",
-          "network": "interface",
-          "incidence_list": [],
-          "created": "2026-03-26 13:53:41",
-          "modified": "2026-03-26 13:53:41",
-          "lhs": {
-            "global_ID": "V_3",
-            "latex": "{macroscopic_m}{_{N, S}}"
-          },
-          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_2.png"
-        }
-      },
-      "imported": false,
-      "index_structures": [
-        "I_1",
-        "I_3"
-      ],
-      "label": "macroscopic_m",
-      "memory": null,
-      "modified": "2026-03-26 13:53:41",
-      "network": "interface",
-      "port_variable": false,
-      "tokens": [],
-      "type": "interface",
-      "units": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
     }
   },
   "indices": {
@@ -298,7 +184,7 @@
     }
   },
   "Ontology_global_IDs": {
-    "variable": 3,
-    "equation": 2
+    "variable": 1,
+    "equation": 0
   }
 }

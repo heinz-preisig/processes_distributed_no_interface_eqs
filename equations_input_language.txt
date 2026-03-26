@@ -1,12 +1,6 @@
 
-E_1 - interface - interface ::
-physical_n =  n
+E_1 - macroscopic - observation ::
+m =  n . inv ( n )
 
-E_2 - control - algebraic ::
-n =  bla......n........
-
-E_3 - physical - constant ::
-nt =  Instantiate ( n , value )
-
-E_5 - physical - observation ::
-xx =  n . inv ( n )
+E_2 - interface - observation ::
+macroscopic_m =  bla......m........

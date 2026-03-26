@@ -141,7 +141,7 @@
       "network": "interface",
       "port_variable": false,
       "tokens": [],
-      "type": "interface",
+      "type": "observation",
       "units": [
         0,
         0,
