@@ -1,5 +1,5 @@
 \contentsline {section}{\numberline {1}Variables}{2}{section.1}%
 \contentsline {section}{\numberline {2} physical }{2}{section.2}%
-\contentsline {section}{\numberline {3} macroscopic }{3}{section.3}%
+\contentsline {section}{\numberline {3} interface }{3}{section.3}%
 \contentsline {section}{\numberline {4}Equations}{4}{section.4}%
 \contentsline {section}{\numberline {5} Generic }{4}{section.5}%

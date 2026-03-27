@@ -1,6 +1,6 @@
 
-E_3 - macroscopic - observation ::
-m =  n . inv ( n )
+E_1 - physical - observation ::
+k =  n . inv ( n )
 
-E_4 - interface - interface ::
-macroscopic_m =  bla......m........
+E_2 - interface - interface ::
+physical_k =  bla......k........

@@ -5,22 +5,22 @@ Variable ID: V_1
   Label: n
   Type: state
   Network: physical
-  Documentation: mass
+  Documentation: _new_
   Units: [0, 0, 1, 0, 0, 0, 0, 0]
 
-Variable ID: V_4
-  Label: m
+Variable ID: V_2
+  Label: k
   Type: observation
-  Network: macroscopic
+  Network: physical
   Documentation: 
   Units: [0, 0, 0, 0, 0, 0, 0, 0]
-  Equations: ['E_3']
+  Equations: ['E_1']
 
-Variable ID: V_5
-  Label: macroscopic_m
+Variable ID: V_3
+  Label: physical_k
   Type: interface
   Network: interface
-  Documentation: Interface variable for m
+  Documentation: Interface variable for k
   Units: [0, 0, 0, 0, 0, 0, 0, 0]
-  Equations: ['E_4']
+  Equations: ['E_2']
 
