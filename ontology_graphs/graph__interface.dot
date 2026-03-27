@@ -1,31 +1,28 @@
 digraph interface {
 label=interface;
 rankdir=LR;
-subgraph cluster_interface___interface {
-label=interface;
-rankdir=LR;
-V_3 [fillcolor=lightcyan2, fontsize=12, label=physical_k, penwidth=3, style=filled];
-E_2 [fillcolor=pink, fontsize=12, shape=box, style=filled];
-E_2 -> V_3  [splines=ortho];
-}
-
-subgraph cluster_interface___network {
-label=network;
-rankdir=LR;
-}
-
-subgraph cluster_interface___frame {
-label=frame;
-rankdir=LR;
-}
-
 subgraph cluster_interface___state {
 label=state;
 rankdir=LR;
 }
 
-subgraph cluster_interface___constant {
-label=constant;
+subgraph cluster_interface___algebraic {
+label=algebraic;
+rankdir=LR;
+}
+
+subgraph cluster_interface___observation {
+label=observation;
+rankdir=LR;
+}
+
+subgraph cluster_interface___secondaryState {
+label=secondaryState;
+rankdir=LR;
+}
+
+subgraph cluster_interface___effort {
+label=effort;
 rankdir=LR;
 }
 

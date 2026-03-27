@@ -39,39 +39,39 @@
         0
       ]
     },
-    "V_2": {
-      "IRI": "promo:k",
+    "V_8": {
+      "IRI": "promo:O",
       "aliases": {
-        "matlab": "k",
-        "latex": "k",
-        "internal_code": "k",
-        "global_ID": "V_2"
+        "matlab": "O",
+        "latex": "O",
+        "internal_code": "O",
+        "global_ID": "V_8"
       },
       "compiled_lhs": {
-        "global_ID": "V_2",
-        "latex": "{k}{_{N, S}}"
+        "global_ID": "V_8",
+        "latex": "{O}{_{N, S}}"
       },
-      "created": "2026-03-27 12:22:58",
+      "created": "2026-03-27 15:01:05",
       "doc": "",
       "equations": {
-        "E_1": {
+        "E_7": {
           "rhs": {
             "global_ID": " V_1 O_4 F_15 D_0 V_1 D_1",
             "latex": "{n}{_{N, S}} \\, . \\, \\left( {n}{_{N, S}} \\right)^{-1}"
           },
           "type": "generic",
           "doc": "",
-          "network": "physical",
+          "network": "macroscopic",
           "incidence_list": [
             "V_1"
           ],
-          "created": "2026-03-27 12:22:58",
-          "modified": "2026-03-27 12:22:58",
+          "created": "2026-03-27 15:01:05",
+          "modified": "2026-03-27 15:01:05",
           "lhs": {
-            "global_ID": "V_2",
-            "latex": "{k}{_{N, S}}"
+            "global_ID": "V_8",
+            "latex": "{O}{_{N, S}}"
           },
-          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_1.png"
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_7.png"
         }
       },
       "imported": false,
@@ -79,10 +79,10 @@
         "I_1",
         "I_3"
       ],
-      "label": "k",
+      "label": "O",
       "memory": null,
-      "modified": "2026-03-27 12:22:58",
-      "network": "physical",
+      "modified": "2026-03-27 15:01:05",
+      "network": "macroscopic",
       "port_variable": false,
       "tokens": [],
       "type": "observation",
@@ -97,37 +97,39 @@
         0
       ]
     },
-    "V_3": {
-      "IRI": "promo:physical_k",
+    "V_9": {
+      "IRI": "promo:macroscopic_O",
       "aliases": {
-        "matlab": "physical_k",
-        "latex": "physical\\_k",
-        "internal_code": "physical_k",
-        "global_ID": "V_3"
+        "matlab": "macroscopic_O",
+        "latex": "macroscopic\\_O",
+        "internal_code": "macroscopic_O",
+        "global_ID": "V_9"
       },
       "compiled_lhs": {
-        "global_ID": "V_3",
-        "latex": "{physical\\_k}{_{N, S}}"
+        "global_ID": "V_9",
+        "latex": "{macroscopic\\_O}{_{N, S}}"
       },
-      "created": "2026-03-27 12:22:58",
-      "doc": "Interface variable for k",
+      "created": "2026-03-27 15:01:05",
+      "doc": "Interface variable for O",
       "equations": {
-        "E_2": {
+        "E_8": {
           "rhs": {
-            "global_ID": " k",
-            "latex": " k"
+            "global_ID": "V_8",
+            "latex": "{O}{_{N, S}}"
           },
           "type": "generic",
-          "doc": "Interface equation for k",
+          "doc": "Interface equation for O",
           "network": "interface",
-          "incidence_list": [],
-          "created": "2026-03-27 12:22:58",
-          "modified": "2026-03-27 12:22:58",
+          "incidence_list": [
+            "V_8"
+          ],
+          "created": "2026-03-27 15:01:05",
+          "modified": "2026-03-27 15:01:05",
           "lhs": {
-            "global_ID": "V_3",
-            "latex": "{physical\\_k}{_{N, S}}"
+            "global_ID": "V_9",
+            "latex": "{macroscopic\\_O}{_{N, S}}"
           },
-          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_2.png"
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_8.png"
         }
       },
       "imported": false,
@@ -135,9 +137,9 @@
         "I_1",
         "I_3"
       ],
-      "label": "physical_k",
+      "label": "macroscopic_O",
       "memory": null,
-      "modified": "2026-03-27 12:22:58",
+      "modified": "2026-03-27 15:01:05",
       "network": "interface",
       "port_variable": false,
       "tokens": [],
@@ -247,10 +249,10 @@
         "reactions"
       ],
       "aliases": {
-        "matlab": "CS",
-        "latex": "CS",
-        "internal_code": "CS",
-        "global_ID": 4
+        "matlab": "K",
+        "latex": "K",
+        "internal_code": "K",
+        "global_ID": " I_I_4"
       },
       "tokens": {
         "instances": [
@@ -300,7 +302,7 @@
     }
   },
   "Ontology_global_IDs": {
-    "variable": 3,
-    "equation": 2
+    "variable": 9,
+    "equation": 8
   }
 }

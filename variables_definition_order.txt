@@ -8,19 +8,19 @@ Variable ID: V_1
   Documentation: _new_
   Units: [0, 0, 1, 0, 0, 0, 0, 0]
 
-Variable ID: V_2
-  Label: k
+Variable ID: V_8
+  Label: O
   Type: observation
-  Network: physical
+  Network: macroscopic
   Documentation: 
   Units: [0, 0, 0, 0, 0, 0, 0, 0]
-  Equations: ['E_1']
+  Equations: ['E_7']
 
-Variable ID: V_3
-  Label: physical_k
+Variable ID: V_9
+  Label: macroscopic_O
   Type: interface
   Network: interface
-  Documentation: Interface variable for k
+  Documentation: Interface variable for O
   Units: [0, 0, 0, 0, 0, 0, 0, 0]
-  Equations: ['E_2']
+  Equations: ['E_8']
 
