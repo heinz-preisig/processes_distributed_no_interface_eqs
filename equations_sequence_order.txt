@@ -9,3 +9,11 @@ Equation ID: E_2
   RHS LaTeX: {physical!n}{_{A, N}}
   Documentation: 
 
+Equation ID: E_3
+  Type: generic
+  Network: control
+  RHS Global ID:  V_1
+  RHS Internal: N/A
+  RHS LaTeX: {physical!n}{_{A, N}}
+  Documentation: 
+

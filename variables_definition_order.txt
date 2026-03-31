@@ -16,3 +16,11 @@ Variable ID: V_3
   Units: [0, 0, 1, 0, 0, 0, 0, 0]
   Equations: ['E_2']
 
+Variable ID: V_4
+  Label: kkk
+  Type: algebraic
+  Network: control
+  Documentation: 
+  Units: [0, 0, 1, 0, 0, 0, 0, 0]
+  Equations: ['E_3']
+

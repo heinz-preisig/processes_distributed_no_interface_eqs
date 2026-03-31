@@ -120,6 +120,28 @@ V_V_3.temperature = [ units[4] ]
 V_V_3.current = [ units[5] ]
 V_V_3.light = [ units[6] ]
 
+# V_4
+label = variables[V_4]["label"]
+network = variables[V_4]["network"]
+variable_type = variables[V_4]["type"]
+label = variables[V_4]["label"]
+doc = variables[V_4]["doc"]
+onto_ID = "V_V_4"
+V_V_4 = onto.ProMoVar( onto_ID )
+V_V_4.label = label
+V_V_4.network = network
+V_V_4.variable_type = variable_type
+V_V_4.comment = doc
+
+units = variables[V_4]["units"].asList()
+V_V_4.time = [ units[0] ]
+V_V_4.length = [ units[1] ]
+V_V_4.amount = [ units[2] ]
+V_V_4.mass = [ units[3] ]
+V_V_4.temperature = [ units[4] ]
+V_V_4.current = [ units[5] ]
+V_V_4.light = [ units[6] ]
+
 # functions assignments
 
 #V_1
@@ -134,5 +156,14 @@ F_ID = "F_E_2"
 F_E_2 = onto.function( F_ID )
 F_E_2.is_function_of = incidence_list
 V_V_3.has_function.append( F_E_2 )
+#V_4
+
+V_V_4.has_function = []
+incidence_list = []
+incidence_list.append( V_1 )
+F_ID = "F_E_3"
+F_E_3 = onto.function( F_ID )
+F_E_3.is_function_of = incidence_list
+V_V_4.has_function.append( F_E_3 )
 
 onto.save("variables.owl")

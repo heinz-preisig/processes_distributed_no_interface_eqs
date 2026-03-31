@@ -34,7 +34,7 @@ rankdir=LR;
 subgraph cluster_macroscopic___state {
 label=state;
 rankdir=LR;
-V_1 [fillcolor=yellow, fontsize=12, label=n, penwidth=3, style=filled];
+V_1 [fillcolor=seagreen4, fontsize=12, label=n, penwidth=3, style=filled];
 }
 
 subgraph cluster_macroscopic___constant {

@@ -1,3 +1,6 @@
 
 E_2 - control - algebraic ::
 k =  physical!n
+
+E_3 - control - algebraic ::
+kkk =  physical!n
