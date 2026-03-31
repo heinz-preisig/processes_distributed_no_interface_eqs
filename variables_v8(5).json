@@ -11,7 +11,7 @@
       },
       "compiled_lhs": {
         "global_ID": "V_1",
-        "latex": "{physical!n}{_{A, N}}"
+        "latex": "{n}{_{A, N}}"
       },
       "created": "2026-03-31 09:01:25",
       "doc": "mass",
@@ -71,7 +71,7 @@
             "global_ID": "V_3",
             "latex": "{k}{_{A, N}}"
           },
-          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_2.png"
+          "png_file": null
         }
       },
       "imported": false,

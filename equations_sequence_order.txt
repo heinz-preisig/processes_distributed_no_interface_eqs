@@ -1,19 +1,11 @@
 List of Equations in Sequence Order
 ==================================================
 
-Equation ID: E_1
-  Type: generic
-  Network: control
-  RHS Global ID:  n
-  RHS Internal: N/A
-  RHS LaTeX:  n
-  Documentation: 
-
 Equation ID: E_2
   Type: generic
   Network: control
   RHS Global ID:  V_1
   RHS Internal: N/A
-  RHS LaTeX: {n}{_{A, N}}
+  RHS LaTeX: {physical!n}{_{A, N}}
   Documentation: 
 

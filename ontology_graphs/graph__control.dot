@@ -45,7 +45,7 @@ E_2 -> V_1  [splines=ortho];
 subgraph cluster_control___algebraic {
 label=algebraic;
 rankdir=LR;
-V_3 [fillcolor=seagreen3, fontsize=12, label=k, penwidth=3, style=filled];
+V_3 [fillcolor=seagreen2, fontsize=12, label=k, penwidth=3, style=filled];
 E_2 [fillcolor=pink, fontsize=12, shape=box, style=filled];
 E_2 -> V_3  [splines=ortho];
 }
