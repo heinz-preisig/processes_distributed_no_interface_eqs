@@ -1,19 +1,19 @@
 List of Equations in Sequence Order
 ==================================================
 
-Equation ID: E_7
+Equation ID: E_1
   Type: generic
-  Network: macroscopic
-  RHS Global ID:  V_1 O_4 F_15 D_0 V_1 D_1
+  Network: control
+  RHS Global ID:  n
   RHS Internal: N/A
-  RHS LaTeX: {n}{_{N, S}} \, . \, \left( {n}{_{N, S}} \right)^{-1}
+  RHS LaTeX:  n
   Documentation: 
 
-Equation ID: E_8
+Equation ID: E_2
   Type: generic
-  Network: interface
-  RHS Global ID: V_8
+  Network: control
+  RHS Global ID:  V_1
   RHS Internal: N/A
-  RHS LaTeX: {O}{_{N, S}}
-  Documentation: Interface equation for O
+  RHS LaTeX: {n}{_{A, N}}
+  Documentation: 
 

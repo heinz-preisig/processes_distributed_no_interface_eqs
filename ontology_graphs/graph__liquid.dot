@@ -34,7 +34,7 @@ rankdir=LR;
 subgraph cluster_liquid___state {
 label=state;
 rankdir=LR;
-V_1 [fillcolor=yellow, fontsize=12, label=n, penwidth=3, style=filled];
+V_1 [fillcolor=seagreen1, fontsize=12, label=n, penwidth=3, style=filled];
 }
 
 subgraph cluster_liquid___constant {
@@ -75,7 +75,6 @@ rankdir=LR;
 subgraph cluster_liquid___observation {
 label=observation;
 rankdir=LR;
-V_8 [fillcolor=grey, fontsize=12, label=O, penwidth=3, style=filled];
 }
 
 }
