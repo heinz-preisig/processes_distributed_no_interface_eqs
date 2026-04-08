@@ -11,19 +11,19 @@
       },
       "compiled_lhs": {
         "global_ID": "V_1",
-        "latex": "{n}{_{N, S}}"
+        "latex": "{n}{_{A, N}}"
       },
-      "created": "2026-03-26 13:52:15",
+      "created": "2026-03-31 09:01:25",
       "doc": "mass",
       "equations": {},
-      "imported": false,
+      "imported": true,
       "index_structures": [
         "I_1",
-        "I_3"
+        "I_2"
       ],
       "label": "n",
       "memory": null,
-      "modified": "2026-03-26 13:52:35",
+      "modified": "2026-03-31 09:01:50",
       "network": "physical",
       "port_variable": true,
       "tokens": [],
@@ -39,57 +39,57 @@
         0
       ]
     },
-    "V_4": {
-      "IRI": "promo:m",
+    "V_3": {
+      "IRI": "promo:k",
       "aliases": {
-        "matlab": "m",
-        "latex": "m",
-        "internal_code": "m",
-        "global_ID": "V_4"
+        "matlab": "k",
+        "latex": "k",
+        "internal_code": "k",
+        "global_ID": "V_3"
       },
       "compiled_lhs": {
-        "global_ID": "V_4",
-        "latex": "{m}{_{N, S}}"
+        "global_ID": "V_3",
+        "latex": "{k}{_{A, N}}"
       },
-      "created": "2026-03-26 17:01:19",
+      "created": "2026-03-31 09:35:09",
       "doc": "",
       "equations": {
-        "E_3": {
+        "E_2": {
           "rhs": {
-            "global_ID": " V_1 O_4 F_15 D_0 V_1 D_1",
-            "latex": "{n}{_{N, S}} \\, . \\, \\left( {n}{_{N, S}} \\right)^{-1}"
+            "global_ID": " V_1",
+            "latex": "{physical!n}{_{A, N}}"
           },
           "type": "generic",
           "doc": "",
-          "network": "macroscopic",
+          "network": "control",
           "incidence_list": [
             "V_1"
           ],
-          "created": "2026-03-26 17:01:19",
-          "modified": "2026-03-26 17:01:19",
+          "created": "2026-03-31 09:35:09",
+          "modified": "2026-03-31 09:35:09",
           "lhs": {
-            "global_ID": "V_4",
-            "latex": "{m}{_{N, S}}"
+            "global_ID": "V_3",
+            "latex": "{k}{_{A, N}}"
           },
-          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_3.png"
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_2.png"
         }
       },
       "imported": false,
       "index_structures": [
         "I_1",
-        "I_3"
+        "I_2"
       ],
-      "label": "m",
+      "label": "k",
       "memory": null,
-      "modified": "2026-03-26 17:01:19",
-      "network": "macroscopic",
+      "modified": "2026-03-31 09:35:09",
+      "network": "control",
       "port_variable": false,
       "tokens": [],
-      "type": "observation",
+      "type": "algebraic",
       "units": [
         0,
         0,
-        0,
+        1,
         0,
         0,
         0,
@@ -97,55 +97,57 @@
         0
       ]
     },
-    "V_5": {
-      "IRI": "promo:macroscopic_m",
+    "V_4": {
+      "IRI": "promo:kkk",
       "aliases": {
-        "matlab": "macroscopic_m",
-        "latex": "macroscopic\\_m",
-        "internal_code": "macroscopic_m",
-        "global_ID": "V_5"
+        "matlab": "kkk",
+        "latex": "kkk",
+        "internal_code": "kkk",
+        "global_ID": "V_4"
       },
       "compiled_lhs": {
-        "global_ID": "V_5",
-        "latex": "{macroscopic\\_m}{_{N, S}}"
+        "global_ID": "V_4",
+        "latex": "{kkk}{_{A, N}}"
       },
-      "created": "2026-03-26 17:01:19",
-      "doc": "Interface variable for m",
+      "created": "2026-03-31 15:09:12",
+      "doc": "",
       "equations": {
-        "E_4": {
+        "E_3": {
           "rhs": {
-            "global_ID": " m",
-            "latex": " m"
+            "global_ID": " V_1",
+            "latex": "{physical!n}{_{A, N}}"
           },
           "type": "generic",
-          "doc": "Interface equation for m",
-          "network": "interface",
-          "incidence_list": [],
-          "created": "2026-03-26 17:01:19",
-          "modified": "2026-03-26 17:01:19",
+          "doc": "",
+          "network": "control",
+          "incidence_list": [
+            "V_1"
+          ],
+          "created": "2026-03-31 15:09:12",
+          "modified": "2026-03-31 15:09:12",
           "lhs": {
-            "global_ID": "V_5",
-            "latex": "{macroscopic\\_m}{_{N, S}}"
+            "global_ID": "V_4",
+            "latex": "{kkk}{_{A, N}}"
           },
-          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_4.png"
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_3.png"
         }
       },
       "imported": false,
       "index_structures": [
         "I_1",
-        "I_3"
+        "I_2"
       ],
-      "label": "macroscopic_m",
+      "label": "kkk",
       "memory": null,
-      "modified": "2026-03-26 17:01:19",
-      "network": "interface",
+      "modified": "2026-03-31 15:09:12",
+      "network": "control",
       "port_variable": false,
       "tokens": [],
-      "type": "interface",
+      "type": "algebraic",
       "units": [
         0,
         0,
-        0,
+        1,
         0,
         0,
         0,
@@ -156,32 +158,6 @@
   },
   "indices": {
     "I_1": {
-      "type": "index",
-      "label": "node",
-      "network": [
-        "root",
-        "physical",
-        "macroscopic",
-        "solid",
-        "fluid",
-        "liquid",
-        "gas",
-        "energy",
-        "microscopic",
-        "reactions",
-        "control",
-        "info_processing"
-      ],
-      "aliases": {
-        "matlab": "N",
-        "latex": "N",
-        "internal_code": "N",
-        "global_ID": "I_1"
-      },
-      "tokens": null,
-      "IRI": "promo:node"
-    },
-    "I_2": {
       "type": "index",
       "label": "arc",
       "network": [
@@ -202,10 +178,36 @@
         "matlab": "A",
         "latex": "A",
         "internal_code": "A",
-        "global_ID": "I_2"
+        "global_ID": "I_1"
       },
       "tokens": null,
       "IRI": "promo:arc"
+    },
+    "I_2": {
+      "type": "index",
+      "label": "node",
+      "network": [
+        "root",
+        "physical",
+        "macroscopic",
+        "solid",
+        "fluid",
+        "liquid",
+        "gas",
+        "energy",
+        "microscopic",
+        "reactions",
+        "control",
+        "info_processing"
+      ],
+      "aliases": {
+        "matlab": "N",
+        "latex": "N",
+        "internal_code": "N",
+        "global_ID": "I_2"
+      },
+      "tokens": null,
+      "IRI": "promo:node"
     },
     "I_3": {
       "type": "index",
@@ -298,7 +300,7 @@
     }
   },
   "Ontology_global_IDs": {
-    "variable": 5,
-    "equation": 4
+    "variable": 4,
+    "equation": 3
   }
 }

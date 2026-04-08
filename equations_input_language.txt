@@ -1,6 +1,6 @@
 
-E_3 - macroscopic - observation ::
-m =  n . inv ( n )
+E_2 - control - algebraic ::
+k =  physical!n
 
-E_4 - interface - interface ::
-macroscopic_m =  bla......m........
+E_3 - control - algebraic ::
+kkk =  physical!n

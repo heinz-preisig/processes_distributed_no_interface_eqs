@@ -8,19 +8,19 @@ Variable ID: V_1
   Documentation: mass
   Units: [0, 0, 1, 0, 0, 0, 0, 0]
 
-Variable ID: V_4
-  Label: m
-  Type: observation
-  Network: macroscopic
+Variable ID: V_3
+  Label: k
+  Type: algebraic
+  Network: control
   Documentation: 
-  Units: [0, 0, 0, 0, 0, 0, 0, 0]
-  Equations: ['E_3']
+  Units: [0, 0, 1, 0, 0, 0, 0, 0]
+  Equations: ['E_2']
 
-Variable ID: V_5
-  Label: macroscopic_m
-  Type: interface
-  Network: interface
-  Documentation: Interface variable for m
-  Units: [0, 0, 0, 0, 0, 0, 0, 0]
-  Equations: ['E_4']
+Variable ID: V_4
+  Label: kkk
+  Type: algebraic
+  Network: control
+  Documentation: 
+  Units: [0, 0, 1, 0, 0, 0, 0, 0]
+  Equations: ['E_3']
 

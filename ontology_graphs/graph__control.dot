@@ -41,9 +41,17 @@ label=diffState;
 rankdir=LR;
 }
 
+E_2 -> V_1  [splines=ortho];
+E_3 -> V_1  [splines=ortho];
 subgraph cluster_control___algebraic {
 label=algebraic;
 rankdir=LR;
+V_3 [fillcolor=seagreen, fontsize=12, label=k, penwidth=3, style=filled];
+V_4 [fillcolor=seagreen, fontsize=12, label=kkk, penwidth=3, style=filled];
+E_2 [fillcolor=pink, fontsize=12, shape=box, style=filled];
+E_2 -> V_3  [splines=ortho];
+E_3 [fillcolor=pink, fontsize=12, shape=box, style=filled];
+E_3 -> V_4  [splines=ortho];
 }
 
 }

@@ -1,0 +1,29 @@
+digraph interface {
+label=interface;
+rankdir=LR;
+subgraph cluster_interface___state {
+label=state;
+rankdir=LR;
+}
+
+subgraph cluster_interface___algebraic {
+label=algebraic;
+rankdir=LR;
+}
+
+subgraph cluster_interface___observation {
+label=observation;
+rankdir=LR;
+}
+
+subgraph cluster_interface___secondaryState {
+label=secondaryState;
+rankdir=LR;
+}
+
+subgraph cluster_interface___effort {
+label=effort;
+rankdir=LR;
+}
+
+}
