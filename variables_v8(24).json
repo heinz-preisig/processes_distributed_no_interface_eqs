@@ -1,0 +1,192 @@
+{
+  "version": "8",
+  "variables": {
+    "V_1": {
+      "IRI": "promo:n",
+      "aliases": {
+        "matlab": "n",
+        "latex": "n",
+        "internal_code": "n",
+        "global_ID": "V_1"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_1",
+        "latex": "{n}{_{N, S}}"
+      },
+      "created": "2026-03-27 12:22:03",
+      "doc": "_new_",
+      "equations": {},
+      "imported": false,
+      "index_structures": [
+        "I_1",
+        "I_3"
+      ],
+      "label": "n",
+      "memory": null,
+      "modified": "2026-03-27 12:22:15",
+      "network": "physical",
+      "port_variable": true,
+      "tokens": [],
+      "type": "state",
+      "units": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "indices": {
+    "I_1": {
+      "type": "index",
+      "label": "node",
+      "network": [
+        "root",
+        "physical",
+        "macroscopic",
+        "solid",
+        "fluid",
+        "liquid",
+        "gas",
+        "energy",
+        "microscopic",
+        "reactions",
+        "control",
+        "info_processing",
+        "interface"
+      ],
+      "aliases": {
+        "matlab": "N",
+        "latex": "N",
+        "internal_code": "N",
+        "global_ID": "I_1"
+      },
+      "tokens": null,
+      "IRI": "promo:node"
+    },
+    "I_2": {
+      "type": "index",
+      "label": "arc",
+      "network": [
+        "root",
+        "physical",
+        "macroscopic",
+        "solid",
+        "fluid",
+        "liquid",
+        "gas",
+        "energy",
+        "microscopic",
+        "reactions",
+        "control",
+        "info_processing",
+        "interface"
+      ],
+      "aliases": {
+        "matlab": "A",
+        "latex": "A",
+        "internal_code": "A",
+        "global_ID": "I_2"
+      },
+      "tokens": null,
+      "IRI": "promo:arc"
+    },
+    "I_3": {
+      "type": "index",
+      "label": "species",
+      "network": [
+        "physical",
+        "macroscopic",
+        "solid",
+        "fluid",
+        "liquid",
+        "gas",
+        "energy",
+        "microscopic",
+        "reactions"
+      ],
+      "aliases": {
+        "matlab": "S",
+        "latex": "S",
+        "internal_code": "S",
+        "global_ID": "I_3"
+      },
+      "tokens": "mass",
+      "IRI": "promo:species"
+    },
+    "I_4": {
+      "type": "index",
+      "label": "species_conversion",
+      "network": [
+        "physical",
+        "macroscopic",
+        "solid",
+        "fluid",
+        "liquid",
+        "gas",
+        "energy",
+        "microscopic",
+        "reactions"
+      ],
+      "aliases": {
+        "matlab": "K",
+        "latex": "K",
+        "internal_code": "K",
+        "global_ID": " I_I_4"
+      },
+      "tokens": {
+        "instances": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "W"
+        ],
+        "conversions": [
+          {
+            "reactants": [
+              "A"
+            ],
+            "products": [
+              "B"
+            ]
+          },
+          {
+            "reactants": [
+              "A",
+              "B"
+            ],
+            "products": [
+              "C",
+              "D"
+            ]
+          }
+        ]
+      },
+      "IRI": "promo:species_conversion"
+    },
+    "I_5": {
+      "type": "index",
+      "label": "D",
+      "network": [
+        "control"
+      ],
+      "aliases": {
+        "matlab": "D",
+        "latex": "D",
+        "internal_code": "D",
+        "global_ID": "I_5"
+      },
+      "tokens": null,
+      "IRI": "promo:D"
+    }
+  },
+  "Ontology_global_IDs": {
+    "variable": 7,
+    "equation": 6
+  }
+}
