@@ -1,19 +1,27 @@
 List of Equations in Sequence Order
 ==================================================
 
+Equation ID: E_1
+  Type: generic
+  Network: root
+  RHS Global ID:  O_10 D_0 V_1 D_7 V_1 D_1
+  RHS Internal: N/A
+  RHS LaTeX: \textbf{Instantiate}({value}{_{}}, {value}{_{}})
+  Documentation: a zero
+
 Equation ID: E_2
   Type: generic
-  Network: control
-  RHS Global ID:  V_1
+  Network: root
+  RHS Global ID:  O_10 D_0 V_1 D_7 V_1 D_1
   RHS Internal: N/A
-  RHS LaTeX: {physical!n}{_{A, N}}
-  Documentation: 
+  RHS LaTeX: \textbf{Instantiate}({value}{_{}}, {value}{_{}})
+  Documentation: one
 
 Equation ID: E_3
   Type: generic
-  Network: control
-  RHS Global ID:  V_1
+  Network: root
+  RHS Global ID:  O_10 D_0 V_1 D_7 V_1 D_1
   RHS Internal: N/A
-  RHS LaTeX: {physical!n}{_{A, N}}
-  Documentation: 
+  RHS LaTeX: \textbf{Instantiate}({value}{_{}}, {value}{_{}})
+  Documentation: one half
 

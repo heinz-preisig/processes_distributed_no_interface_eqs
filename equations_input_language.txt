@@ -1,6 +1,9 @@
 
-E_2 - control - algebraic ::
-k =  physical!n
+E_1 - root - constant ::
+zero =  Instantiate ( value , value )
 
-E_3 - control - algebraic ::
-kkk =  physical!n
+E_2 - root - constant ::
+one =  Instantiate ( value , value )
+
+E_3 - root - constant ::
+onehalf =  Instantiate ( value , value )

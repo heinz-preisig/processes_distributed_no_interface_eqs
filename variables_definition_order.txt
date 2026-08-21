@@ -2,25 +2,82 @@ List of Variables in Definition Order
 ==================================================
 
 Variable ID: V_1
-  Label: n
-  Type: state
-  Network: physical
-  Documentation: mass
-  Units: [0, 0, 1, 0, 0, 0, 0, 0]
+  Label: value
+  Type: constant
+  Network: root
+  Documentation: a numerical value
+  Units: [0, 0, 0, 0, 0, 0, 0, 0]
+
+Variable ID: V_2
+  Label: zero
+  Type: constant
+  Network: root
+  Documentation: a zero
+  Units: [0, 0, 0, 0, 0, 0, 0, 0]
+  Equations: ['E_1']
 
 Variable ID: V_3
-  Label: k
-  Type: algebraic
-  Network: control
-  Documentation: 
-  Units: [0, 0, 1, 0, 0, 0, 0, 0]
+  Label: one
+  Type: constant
+  Network: root
+  Documentation: a one
+  Units: [0, 0, 0, 0, 0, 0, 0, 0]
   Equations: ['E_2']
 
 Variable ID: V_4
-  Label: kkk
-  Type: algebraic
-  Network: control
-  Documentation: 
-  Units: [0, 0, 1, 0, 0, 0, 0, 0]
+  Label: onehalf
+  Type: constant
+  Network: root
+  Documentation: one half
+  Units: [0, 0, 0, 0, 0, 0, 0, 0]
   Equations: ['E_3']
+
+Variable ID: V_5
+  Label: t
+  Type: frame
+  Network: root
+  Documentation: time
+  Units: [1, 0, 0, 0, 0, 0, 0, 0]
+
+Variable ID: V_6
+  Label: r_x
+  Type: frame
+  Network: physical
+  Documentation: x-coordinate
+  Units: [0, 1, 0, 0, 0, 0, 0, 0]
+
+Variable ID: V_7
+  Label: r_y
+  Type: frame
+  Network: physical
+  Documentation: y-coordinate
+  Units: [0, 1, 0, 0, 0, 0, 0, 0]
+
+Variable ID: V_8
+  Label: r_z
+  Type: frame
+  Network: physical
+  Documentation: z-coordinate
+  Units: [0, 1, 0, 0, 0, 0, 0, 0]
+
+Variable ID: V_9
+  Label: U
+  Type: state
+  Network: physical
+  Documentation: internal energy
+  Units: [-2, 2, 0, 1, 0, 0, 0, 0]
+
+Variable ID: V_10
+  Label: S
+  Type: state
+  Network: physical
+  Documentation: entropy
+  Units: [-2, 2, 0, 1, -1, 0, 0, 0]
+
+Variable ID: V_11
+  Label: n
+  Type: state
+  Network: physical
+  Documentation: mass - molar
+  Units: [0, 0, 1, 0, 0, 0, 0, 0]
 
