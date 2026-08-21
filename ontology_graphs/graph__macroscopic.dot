@@ -29,27 +29,28 @@ rankdir=LR;
 subgraph cluster_macroscopic___frame {
 label=frame;
 rankdir=LR;
-V_5 [fillcolor=lightcyan4, fontsize=12, label=t, penwidth=3, style=filled];
-V_6 [fillcolor=lightcyan4, fontsize=12, label=r_x, penwidth=3, style=filled];
-V_7 [fillcolor=lightcyan4, fontsize=12, label=r_y, penwidth=3, style=filled];
-V_8 [fillcolor=lightcyan4, fontsize=12, label=r_z, penwidth=3, style=filled];
+V_5 [fillcolor=white, fontsize=12, label=t, penwidth=3, style=filled];
+V_6 [fillcolor=white, fontsize=12, label=r_x, penwidth=3, style=filled];
+V_7 [fillcolor=white, fontsize=12, label=r_y, penwidth=3, style=filled];
+V_8 [fillcolor=white, fontsize=12, label=r_z, penwidth=3, style=filled];
 }
 
 subgraph cluster_macroscopic___state {
 label=state;
 rankdir=LR;
-V_9 [fillcolor=seagreen4, fontsize=12, label=U, penwidth=3, style=filled];
-V_10 [fillcolor=seagreen4, fontsize=12, label=S, penwidth=3, style=filled];
-V_11 [fillcolor=seagreen4, fontsize=12, label=n, penwidth=3, style=filled];
+V_10 [fillcolor=green, fontsize=12, label=S, penwidth=3, style=filled];
+V_11 [fillcolor=green, fontsize=12, label=n, penwidth=3, style=filled];
+V_9 [fillcolor=green, fontsize=12, label=U, penwidth=3, style=filled];
+V_12 [fillcolor=green, fontsize=12, label=V, penwidth=3, style=filled];
 }
 
 subgraph cluster_macroscopic___constant {
 label=constant;
 rankdir=LR;
-V_1 [fillcolor=green, fontsize=12, label=value, penwidth=3, style=filled];
-V_2 [fillcolor=green, fontsize=12, label=zero, penwidth=3, style=filled];
-V_3 [fillcolor=green, fontsize=12, label=one, penwidth=3, style=filled];
-V_4 [fillcolor=green, fontsize=12, label=onehalf, penwidth=3, style=filled];
+V_1 [fillcolor=lightcyan3, fontsize=12, label=value, penwidth=3, style=filled];
+V_2 [fillcolor=lightcyan3, fontsize=12, label=zero, penwidth=3, style=filled];
+V_3 [fillcolor=lightcyan3, fontsize=12, label=one, penwidth=3, style=filled];
+V_4 [fillcolor=lightcyan3, fontsize=12, label=onehalf, penwidth=3, style=filled];
 }
 
 subgraph cluster_macroscopic___effort {

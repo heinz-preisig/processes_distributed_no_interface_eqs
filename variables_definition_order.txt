@@ -81,3 +81,11 @@ Variable ID: V_11
   Documentation: mass - molar
   Units: [0, 0, 1, 0, 0, 0, 0, 0]
 
+Variable ID: V_12
+  Label: V
+  Type: state
+  Network: physical
+  Documentation: volume
+  Units: [0, 3, 0, 0, 0, 0, 0, 0]
+  Equations: ['E_4']
+

@@ -572,8 +572,7 @@
       "children": [
         "macroscopic",
         "microscopic",
-        "reactions",
-        "properties"
+        "reactions"
       ],
       "name": "physical",
       "parents": [
@@ -619,72 +618,6 @@
         }
       },
       "type": "inter"
-    },
-    "properties": {
-      "behaviour": {
-        "arc": [],
-        "graph": [
-          "network",
-          "differenceOperator"
-        ],
-        "node": [
-          "frame",
-          "state",
-          "constant",
-          "effort",
-          "secondaryState",
-          "diffState",
-          "conversion",
-          "controlInput",
-          "observation"
-        ]
-      },
-      "children": [],
-      "name": "properties",
-      "parents": [
-        "physical",
-        "root"
-      ],
-      "structure": {
-        "arc": {
-          "charge": {
-            "conduction": [
-              "lumped"
-            ]
-          },
-          "energy": {
-            "conduction": [
-              "lumped"
-            ],
-            "work": [
-              "lumped"
-            ]
-          },
-          "mass": {
-            "convection": [
-              "lumped"
-            ],
-            "diffusion": [
-              "lumped"
-            ]
-          }
-        },
-        "node": {
-          "constant": [
-            "infinity"
-          ],
-          "dynamic": [],
-          "event": []
-        },
-        "token": {
-          "charge": [],
-          "energy": [],
-          "mass": [
-            "species"
-          ]
-        }
-      },
-      "type": "intra"
     },
     "reactions": {
       "behaviour": {
@@ -750,7 +683,7 @@
           ]
         }
       },
-      "type": "intra"
+      "type": "inter"
     },
     "root": {
       "behaviour": {
@@ -881,7 +814,6 @@
       "macroscopic": false,
       "microscopic": false,
       "physical": false,
-      "properties": false,
       "reactions": false,
       "root": false,
       "solid": false
@@ -903,11 +835,8 @@
       "fluid": false,
       "info_processing": false,
       "macroscopic": false,
-      "microscopic": false,
       "physical": false,
-      "reactions": false,
-      "root": false,
-      "solid": false
+      "root": false
     },
     "numerical_value": "value",
     "variable_classes_being_state_variables": [],

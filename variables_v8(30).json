@@ -111,65 +111,6 @@
         0
       ]
     },
-    "V_12": {
-      "IRI": "promo:V",
-      "aliases": {
-        "matlab": "V",
-        "latex": "V",
-        "internal_code": "V",
-        "global_ID": "V_12"
-      },
-      "compiled_lhs": {
-        "global_ID": "V_12",
-        "latex": "{V}{_{N}}"
-      },
-      "created": "2026-08-21 13:56:01",
-      "doc": "volume",
-      "equations": {
-        "E_4": {
-          "rhs": {
-            "global_ID": " V_6 O_4 V_7 O_4 V_8",
-            "latex": "{{r_x}}{_{N}} \\, . \\, {{r_y}}{_{N}} \\, . \\, {{r_z}}{_{N}}"
-          },
-          "type": "generic",
-          "doc": "volume",
-          "network": "physical",
-          "incidence_list": [
-            "V_6",
-            "V_7",
-            "V_8"
-          ],
-          "created": "2026-08-21 13:56:01",
-          "modified": "2026-08-21 13:56:01",
-          "lhs": {
-            "global_ID": "V_12",
-            "latex": "{V}{_{N}}"
-          },
-          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_4.png"
-        }
-      },
-      "imported": false,
-      "index_structures": [
-        "I_2"
-      ],
-      "label": "V",
-      "memory": null,
-      "modified": "2026-08-21 13:56:01",
-      "network": "physical",
-      "port_variable": false,
-      "tokens": [],
-      "type": "state",
-      "units": [
-        0,
-        3,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
     "V_2": {
       "IRI": "promo:zero",
       "aliases": {
@@ -663,7 +604,7 @@
     }
   },
   "Ontology_global_IDs": {
-    "variable": 12,
-    "equation": 4
+    "variable": 11,
+    "equation": 3
   }
 }

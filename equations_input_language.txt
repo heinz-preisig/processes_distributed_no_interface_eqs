@@ -7,3 +7,6 @@ one =  Instantiate ( value , value )
 
 E_3 - root - constant ::
 onehalf =  Instantiate ( value , value )
+
+E_4 - physical - state ::
+V =  r_x . r_y . r_z
