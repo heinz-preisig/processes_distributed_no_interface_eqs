@@ -33,3 +33,11 @@ Equation ID: E_4
   RHS LaTeX: {{r_x}}{_{N}} \, . \, {{r_y}}{_{N}} \, . \, {{r_z}}{_{N}}
   Documentation: volume
 
+Equation ID: E_5
+  Type: generic
+  Network: macroscopic
+  RHS Global ID:  V_13 O_4 V_11
+  RHS Internal: N/A
+  RHS LaTeX: {properties!Mm}{_{S}} \, . \, {physical!{n}}{_{N, S}}
+  Documentation: mass
+

@@ -89,3 +89,18 @@ Variable ID: V_12
   Units: [0, 3, 0, 0, 0, 0, 0, 0]
   Equations: ['E_4']
 
+Variable ID: V_13
+  Label: Mm
+  Type: constant
+  Network: properties
+  Documentation: molecular mass
+  Units: [0, 0, -1, 1, 0, 0, 0, 0]
+
+Variable ID: V_14
+  Label: m
+  Type: secondaryState
+  Network: macroscopic
+  Documentation: mass
+  Units: [0, 0, 0, 1, 0, 0, 0, 0]
+  Equations: ['E_5']
+

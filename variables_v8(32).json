@@ -46,7 +46,7 @@
       },
       "compiled_lhs": {
         "global_ID": "V_10",
-        "latex": "{{S}}{_{N}}"
+        "latex": "_new_"
       },
       "created": "2026-08-20 17:03:09",
       "doc": "entropy",
@@ -83,12 +83,12 @@
       },
       "compiled_lhs": {
         "global_ID": "V_11",
-        "latex": "{{n}}{_{N, S}}"
+        "latex": "_new_"
       },
       "created": "2026-08-20 17:04:19",
       "doc": "mass - molar",
       "equations": {},
-      "imported": true,
+      "imported": false,
       "index_structures": [
         "I_2",
         "I_3"
@@ -180,12 +180,12 @@
       },
       "compiled_lhs": {
         "global_ID": "V_13",
-        "latex": "{Mm}{_{S}}"
+        "latex": "_new_"
       },
       "created": "2026-08-21 15:50:37",
       "doc": "molecular mass",
       "equations": {},
-      "imported": true,
+      "imported": false,
       "index_structures": [
         "I_3"
       ],
@@ -200,65 +200,6 @@
         0,
         0,
         -1,
-        1,
-        0,
-        0,
-        0,
-        0
-      ]
-    },
-    "V_14": {
-      "IRI": "promo:m",
-      "aliases": {
-        "matlab": "m",
-        "latex": "m",
-        "internal_code": "m",
-        "global_ID": "V_14"
-      },
-      "compiled_lhs": {
-        "global_ID": "V_14",
-        "latex": "{m}{_{N, S}}"
-      },
-      "created": "2026-08-21 15:52:27",
-      "doc": "mass",
-      "equations": {
-        "E_5": {
-          "rhs": {
-            "global_ID": " V_13 O_4 V_11",
-            "latex": "{properties!Mm}{_{S}} \\, . \\, {physical!{n}}{_{N, S}}"
-          },
-          "type": "generic",
-          "doc": "mass",
-          "network": "macroscopic",
-          "incidence_list": [
-            "V_11",
-            "V_13"
-          ],
-          "created": "2026-08-21 15:52:27",
-          "modified": "2026-08-21 15:52:27",
-          "lhs": {
-            "global_ID": "V_14",
-            "latex": "{m}{_{N, S}}"
-          },
-          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_5.png"
-        }
-      },
-      "imported": false,
-      "index_structures": [
-        "I_2",
-        "I_3"
-      ],
-      "label": "m",
-      "memory": null,
-      "modified": "2026-08-21 15:52:27",
-      "network": "macroscopic",
-      "port_variable": false,
-      "tokens": [],
-      "type": "secondaryState",
-      "units": [
-        0,
-        0,
-        0,
         1,
         0,
         0,
@@ -476,7 +417,7 @@
       },
       "compiled_lhs": {
         "global_ID": "V_6",
-        "latex": "{{r_x}}{_{N}}"
+        "latex": "{r_x}{_{N}}"
       },
       "created": "2026-08-20 16:53:37",
       "doc": "x-coordinate",
@@ -513,7 +454,7 @@
       },
       "compiled_lhs": {
         "global_ID": "V_7",
-        "latex": "{{r_y}}{_{N}}"
+        "latex": "{r_y}{_{N}}"
       },
       "created": "2026-08-20 16:55:39",
       "doc": "y-coordinate",
@@ -550,7 +491,7 @@
       },
       "compiled_lhs": {
         "global_ID": "V_8",
-        "latex": "{{r_z}}{_{N}}"
+        "latex": "{r_z}{_{N}}"
       },
       "created": "2026-08-20 16:56:08",
       "doc": "z-coordinate",
@@ -587,7 +528,7 @@
       },
       "compiled_lhs": {
         "global_ID": "V_9",
-        "latex": "{{U}}{_{N}}"
+        "latex": "_new_"
       },
       "created": "2026-08-20 17:01:25",
       "doc": "internal energy",
@@ -763,7 +704,7 @@
     }
   },
   "Ontology_global_IDs": {
-    "variable": 14,
-    "equation": 5
+    "variable": 13,
+    "equation": 4
   }
 }

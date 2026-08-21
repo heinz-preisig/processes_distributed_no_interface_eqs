@@ -1,32 +1,17 @@
-digraph liquid {
-label=liquid;
-rankdir=LR;
-subgraph cluster_liquid___transport {
-label=transport;
-rankdir=LR;
-}
-
-subgraph cluster_liquid___geometry {
-label=geometry;
-rankdir=LR;
-}
-
-subgraph cluster_liquid___properties {
+digraph properties {
 label=properties;
 rankdir=LR;
-}
-
-subgraph cluster_liquid___network {
+subgraph cluster_properties___network {
 label=network;
 rankdir=LR;
 }
 
-subgraph cluster_liquid___differenceOperator {
+subgraph cluster_properties___differenceOperator {
 label=differenceOperator;
 rankdir=LR;
 }
 
-subgraph cluster_liquid___frame {
+subgraph cluster_properties___frame {
 label=frame;
 rankdir=LR;
 V_5 [fillcolor=grey, fontsize=12, label=t, penwidth=3, style=filled];
@@ -35,7 +20,7 @@ V_7 [fillcolor=grey, fontsize=12, label=r_y, penwidth=3, style=filled];
 V_8 [fillcolor=grey, fontsize=12, label=r_z, penwidth=3, style=filled];
 }
 
-subgraph cluster_liquid___state {
+subgraph cluster_properties___state {
 label=state;
 rankdir=LR;
 V_10 [fillcolor=seagreen, fontsize=12, label=S, penwidth=3, style=filled];
@@ -44,47 +29,42 @@ V_12 [fillcolor=seagreen, fontsize=12, label=V, penwidth=3, style=filled];
 V_9 [fillcolor=seagreen, fontsize=12, label=U, penwidth=3, style=filled];
 }
 
-subgraph cluster_liquid___constant {
+subgraph cluster_properties___constant {
 label=constant;
 rankdir=LR;
 V_1 [fillcolor=tan, fontsize=12, label=value, penwidth=3, style=filled];
 V_2 [fillcolor=tan, fontsize=12, label=zero, penwidth=3, style=filled];
 V_3 [fillcolor=tan, fontsize=12, label=one, penwidth=3, style=filled];
 V_4 [fillcolor=tan, fontsize=12, label=onehalf, penwidth=3, style=filled];
+V_13 [fillcolor=tan, fontsize=12, label=Mm, penwidth=3, style=filled];
 }
 
-subgraph cluster_liquid___effort {
+subgraph cluster_properties___effort {
 label=effort;
 rankdir=LR;
 }
 
-subgraph cluster_liquid___secondaryState {
+subgraph cluster_properties___secondaryState {
 label=secondaryState;
 rankdir=LR;
-V_14 [fillcolor=seagreen4, fontsize=12, label=m, penwidth=3, style=filled];
 }
 
-subgraph cluster_liquid___conversion {
-label=conversion;
-rankdir=LR;
-}
-
-subgraph cluster_liquid___diffState {
+subgraph cluster_properties___diffState {
 label=diffState;
 rankdir=LR;
 }
 
-subgraph cluster_liquid___internalTransport {
-label=internalTransport;
+subgraph cluster_properties___conversion {
+label=conversion;
 rankdir=LR;
 }
 
-subgraph cluster_liquid___controlInput {
+subgraph cluster_properties___controlInput {
 label=controlInput;
 rankdir=LR;
 }
 
-subgraph cluster_liquid___observation {
+subgraph cluster_properties___observation {
 label=observation;
 rankdir=LR;
 }

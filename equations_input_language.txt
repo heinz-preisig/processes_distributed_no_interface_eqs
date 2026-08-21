@@ -10,3 +10,6 @@ onehalf =  Instantiate ( value , value )
 
 E_4 - physical - state ::
 V =  r_x . r_y . r_z
+
+E_5 - macroscopic - secondaryState ::
+m =  properties!Mm . physical!n
