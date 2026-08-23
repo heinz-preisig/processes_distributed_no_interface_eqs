@@ -14,10 +14,12 @@ rankdir=LR;
 subgraph cluster_physical___frame {
 label=frame;
 rankdir=LR;
-V_5 [fillcolor=grey, fontsize=12, label=t, penwidth=3, style=filled];
-V_6 [fillcolor=grey, fontsize=12, label=r_x, penwidth=3, style=filled];
-V_7 [fillcolor=grey, fontsize=12, label=r_y, penwidth=3, style=filled];
-V_8 [fillcolor=grey, fontsize=12, label=r_z, penwidth=3, style=filled];
+V_18 [fillcolor=lightcyan, fontsize=12, label=t0, penwidth=3, style=filled];
+V_19 [fillcolor=lightcyan, fontsize=12, label=te, penwidth=3, style=filled];
+V_5 [fillcolor=lightcyan, fontsize=12, label=t, penwidth=3, style=filled];
+V_6 [fillcolor=lightcyan, fontsize=12, label=rx, penwidth=3, style=filled];
+V_7 [fillcolor=lightcyan, fontsize=12, label=ry, penwidth=3, style=filled];
+V_8 [fillcolor=lightcyan, fontsize=12, label=rz, penwidth=3, style=filled];
 }
 
 E_4 -> V_6  [splines=ortho];
@@ -26,21 +28,28 @@ E_4 -> V_8  [splines=ortho];
 subgraph cluster_physical___state {
 label=state;
 rankdir=LR;
-V_10 [fillcolor=seagreen, fontsize=12, label=S, penwidth=3, style=filled];
-V_11 [fillcolor=seagreen, fontsize=12, label=n, penwidth=3, style=filled];
-V_12 [fillcolor=seagreen, fontsize=12, label=V, penwidth=3, style=filled];
-V_9 [fillcolor=seagreen, fontsize=12, label=U, penwidth=3, style=filled];
+V_10 [fillcolor=green, fontsize=12, label=S, penwidth=3, style=filled];
+V_11 [fillcolor=green, fontsize=12, label=n, penwidth=3, style=filled];
+V_12 [fillcolor=green, fontsize=12, label=V, penwidth=3, style=filled];
+V_9 [fillcolor=green, fontsize=12, label=U, penwidth=3, style=filled];
 E_4 [fillcolor=pink, fontsize=12, shape=box, style=filled];
 E_4 -> V_12  [splines=ortho];
 }
 
+E_6 -> V_15  [splines=ortho];
+E_6 -> V_16  [splines=ortho];
 subgraph cluster_physical___constant {
 label=constant;
 rankdir=LR;
-V_1 [fillcolor=tan, fontsize=12, label=value, penwidth=3, style=filled];
-V_2 [fillcolor=tan, fontsize=12, label=zero, penwidth=3, style=filled];
-V_3 [fillcolor=tan, fontsize=12, label=one, penwidth=3, style=filled];
-V_4 [fillcolor=tan, fontsize=12, label=onehalf, penwidth=3, style=filled];
+V_1 [fillcolor=lightcyan3, fontsize=12, label=value, penwidth=3, style=filled];
+V_15 [fillcolor=lightcyan3, fontsize=12, label=kb, penwidth=3, style=filled];
+V_16 [fillcolor=lightcyan3, fontsize=12, label=Avo, penwidth=3, style=filled];
+V_17 [fillcolor=lightcyan3, fontsize=12, label=R, penwidth=3, style=filled];
+V_2 [fillcolor=lightcyan3, fontsize=12, label=zero, penwidth=3, style=filled];
+V_3 [fillcolor=lightcyan3, fontsize=12, label=one, penwidth=3, style=filled];
+V_4 [fillcolor=lightcyan3, fontsize=12, label=onehalf, penwidth=3, style=filled];
+E_6 [fillcolor=pink, fontsize=12, shape=box, style=filled];
+E_6 -> V_17  [splines=ortho];
 }
 
 subgraph cluster_physical___effort {
@@ -48,9 +57,24 @@ label=effort;
 rankdir=LR;
 }
 
+E_9 -> V_6  [splines=ortho];
+E_9 -> V_7  [splines=ortho];
+E_10 -> V_6  [splines=ortho];
+E_10 -> V_8  [splines=ortho];
+E_11 -> V_7  [splines=ortho];
+E_11 -> V_8  [splines=ortho];
 subgraph cluster_physical___secondaryState {
 label=secondaryState;
 rankdir=LR;
+V_20 [fillcolor=seagreen, fontsize=12, label=Axy, penwidth=3, style=filled];
+V_21 [fillcolor=seagreen, fontsize=12, label=Axz, penwidth=3, style=filled];
+V_22 [fillcolor=seagreen, fontsize=12, label=Ayz, penwidth=3, style=filled];
+E_9 [fillcolor=pink, fontsize=12, shape=box, style=filled];
+E_9 -> V_20  [splines=ortho];
+E_10 [fillcolor=pink, fontsize=12, shape=box, style=filled];
+E_10 -> V_21  [splines=ortho];
+E_11 [fillcolor=pink, fontsize=12, shape=box, style=filled];
+E_11 -> V_22  [splines=ortho];
 }
 
 subgraph cluster_physical___diffState {

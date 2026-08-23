@@ -9,7 +9,28 @@ E_3 - root - constant ::
 onehalf =  Instantiate ( value , value )
 
 E_4 - physical - state ::
-V =  r_x . r_y . r_z
+V =  rx . ry . rz
 
 E_5 - macroscopic - secondaryState ::
 m =  properties!Mm . physical!n
+
+E_6 - physical - constant ::
+R =  Avo . kb
+
+E_7 - root - frame ::
+t0 =  Instantiate ( t , value )
+
+E_8 - root - frame ::
+te =  Instantiate ( t , value )
+
+E_9 - physical - secondaryState ::
+Axy =  rx . ry
+
+E_10 - physical - secondaryState ::
+Axz =  rx . rz
+
+E_11 - physical - secondaryState ::
+Ayz =  ry . rz
+
+E_12 - properties - secondaryState ::
+density =  inv ( physical!V ) . macroscopic!m

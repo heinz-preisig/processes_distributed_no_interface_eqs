@@ -40,21 +40,21 @@ Variable ID: V_5
   Units: [1, 0, 0, 0, 0, 0, 0, 0]
 
 Variable ID: V_6
-  Label: r_x
+  Label: rx
   Type: frame
   Network: physical
   Documentation: x-coordinate
   Units: [0, 1, 0, 0, 0, 0, 0, 0]
 
 Variable ID: V_7
-  Label: r_y
+  Label: ry
   Type: frame
   Network: physical
   Documentation: y-coordinate
   Units: [0, 1, 0, 0, 0, 0, 0, 0]
 
 Variable ID: V_8
-  Label: r_z
+  Label: rz
   Type: frame
   Network: physical
   Documentation: z-coordinate
@@ -103,4 +103,74 @@ Variable ID: V_14
   Documentation: mass
   Units: [0, 0, 0, 1, 0, 0, 0, 0]
   Equations: ['E_5']
+
+Variable ID: V_15
+  Label: kb
+  Type: constant
+  Network: physical
+  Documentation: Bolzmann konstant
+  Units: [-2, 2, 0, 1, -1, 0, 0, 0]
+
+Variable ID: V_16
+  Label: Avo
+  Type: constant
+  Network: physical
+  Documentation: Avogadro number
+  Units: [0, 0, -1, 0, 0, 0, 0, 0]
+
+Variable ID: V_17
+  Label: R
+  Type: constant
+  Network: physical
+  Documentation: Gas constant
+  Units: [-2, 2, -1, 1, -1, 0, 0, 0]
+  Equations: ['E_6']
+
+Variable ID: V_18
+  Label: t0
+  Type: frame
+  Network: root
+  Documentation: begin time
+  Units: [1, 0, 0, 0, 0, 0, 0, 0]
+  Equations: ['E_7']
+
+Variable ID: V_19
+  Label: te
+  Type: frame
+  Network: root
+  Documentation: end time
+  Units: [1, 0, 0, 0, 0, 0, 0, 0]
+  Equations: ['E_8']
+
+Variable ID: V_20
+  Label: Axy
+  Type: secondaryState
+  Network: physical
+  Documentation: cross-sectional area in the x-y plane
+  Units: [0, 2, 0, 0, 0, 0, 0, 0]
+  Equations: ['E_9']
+
+Variable ID: V_21
+  Label: Axz
+  Type: secondaryState
+  Network: physical
+  Documentation: cross-sectional area in the x-z plane
+  Units: [0, 2, 0, 0, 0, 0, 0, 0]
+  Equations: ['E_10']
+
+Variable ID: V_22
+  Label: Ayz
+  Type: secondaryState
+  Network: physical
+  Documentation: cross-sectional area in the y-z plane
+  Units: [0, 2, 0, 0, 0, 0, 0, 0]
+  Equations: ['E_11']
+
+Variable ID: V_23
+  Label: density
+  Type: secondaryState
+  Network: properties
+  Documentation: mass density
+  Units: [0, -3, 0, 1, 0, 0, 0, 0]
+  Equations: ['E_12']
 

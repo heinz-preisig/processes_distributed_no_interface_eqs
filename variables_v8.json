@@ -148,7 +148,7 @@
           "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_4.png"
         }
       },
-      "imported": false,
+      "imported": true,
       "index_structures": [
         "I_2"
       ],
@@ -208,7 +208,7 @@
       ]
     },
     "V_14": {
-      "IRI": "promo:m",
+      "IRI": "qudt:Mass",
       "aliases": {
         "matlab": "m",
         "latex": "m",
@@ -243,14 +243,14 @@
           "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_5.png"
         }
       },
-      "imported": false,
+      "imported": true,
       "index_structures": [
         "I_2",
         "I_3"
       ],
       "label": "m",
       "memory": null,
-      "modified": "2026-08-21 15:52:27",
+      "modified": "2026-08-22 13:00:15",
       "network": "macroscopic",
       "port_variable": false,
       "tokens": [],
@@ -260,6 +260,244 @@
         0,
         0,
         1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_15": {
+      "IRI": "qudt:BoltzmannConstant",
+      "aliases": {
+        "matlab": "kb",
+        "latex": "{k^B}",
+        "internal_code": "kb",
+        "global_ID": "V_15"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_15",
+        "latex": "_new_"
+      },
+      "created": "2026-08-22 17:02:14",
+      "doc": "Bolzmann konstant",
+      "equations": {},
+      "imported": false,
+      "index_structures": [],
+      "label": "kb",
+      "memory": null,
+      "modified": "2026-08-22 17:05:56",
+      "network": "physical",
+      "port_variable": true,
+      "tokens": [],
+      "type": "constant",
+      "units": [
+        -2,
+        2,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_16": {
+      "IRI": "promo:Avo",
+      "aliases": {
+        "matlab": "Avo",
+        "latex": "Avo",
+        "internal_code": "Avo",
+        "global_ID": "V_16"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_16",
+        "latex": "{Avo}{_{}}"
+      },
+      "created": "2026-08-23 10:24:29",
+      "doc": "Avogadro number",
+      "equations": {},
+      "imported": false,
+      "index_structures": [],
+      "label": "Avo",
+      "memory": null,
+      "modified": "2026-08-23 10:25:14",
+      "network": "physical",
+      "port_variable": true,
+      "tokens": [],
+      "type": "constant",
+      "units": [
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_17": {
+      "IRI": "qudt:MolarGasConstant",
+      "aliases": {
+        "matlab": "R",
+        "latex": "R",
+        "internal_code": "R",
+        "global_ID": "V_17"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_17",
+        "latex": "{R}{_{}}"
+      },
+      "created": "2026-08-23 10:27:19",
+      "doc": "Gas constant",
+      "equations": {
+        "E_6": {
+          "rhs": {
+            "global_ID": " V_16 O_4 V_15",
+            "latex": "{Avo}{_{}} \\, . \\, {{k^B}}{_{}}"
+          },
+          "type": "generic",
+          "doc": "Gas constant",
+          "network": "physical",
+          "incidence_list": [
+            "V_15",
+            "V_16"
+          ],
+          "created": "2026-08-23 10:27:19",
+          "modified": "2026-08-23 10:27:19",
+          "lhs": {
+            "global_ID": "V_17",
+            "latex": "{R}{_{}}"
+          },
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_6.png"
+        }
+      },
+      "imported": false,
+      "index_structures": [],
+      "label": "R",
+      "memory": null,
+      "modified": "2026-08-23 10:29:10",
+      "network": "physical",
+      "port_variable": false,
+      "tokens": [],
+      "type": "constant",
+      "units": [
+        -2,
+        2,
+        -1,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_18": {
+      "IRI": "promo:t0",
+      "aliases": {
+        "matlab": "t0",
+        "latex": "t0",
+        "internal_code": "t0",
+        "global_ID": "V_18"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_18",
+        "latex": "{t0}{_{}}"
+      },
+      "created": "2026-08-23 10:30:54",
+      "doc": "begin time",
+      "equations": {
+        "E_7": {
+          "rhs": {
+            "global_ID": " O_10 D_0 V_5 D_7 V_1 D_1",
+            "latex": "\\textbf{Instantiate}({t}{_{}}, {value}{_{}})"
+          },
+          "type": "generic",
+          "doc": "",
+          "network": "root",
+          "incidence_list": [
+            "V_1",
+            "V_5"
+          ],
+          "created": "2026-08-23 10:30:54",
+          "modified": "2026-08-23 10:30:54",
+          "lhs": {
+            "global_ID": "V_18",
+            "latex": "{t0}{_{}}"
+          },
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_7.png"
+        }
+      },
+      "imported": false,
+      "index_structures": [],
+      "label": "t0",
+      "memory": null,
+      "modified": "2026-08-23 10:31:33",
+      "network": "root",
+      "port_variable": false,
+      "tokens": [],
+      "type": "frame",
+      "units": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_19": {
+      "IRI": "promo:te",
+      "aliases": {
+        "matlab": "te",
+        "latex": "te",
+        "internal_code": "te",
+        "global_ID": "V_19"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_19",
+        "latex": "{te}{_{}}"
+      },
+      "created": "2026-08-23 10:31:23",
+      "doc": "end time",
+      "equations": {
+        "E_8": {
+          "rhs": {
+            "global_ID": " O_10 D_0 V_5 D_7 V_1 D_1",
+            "latex": "\\textbf{Instantiate}({t}{_{}}, {value}{_{}})"
+          },
+          "type": "generic",
+          "doc": "end time",
+          "network": "root",
+          "incidence_list": [
+            "V_1",
+            "V_5"
+          ],
+          "created": "2026-08-23 10:31:23",
+          "modified": "2026-08-23 10:31:23",
+          "lhs": {
+            "global_ID": "V_19",
+            "latex": "{te}{_{}}"
+          },
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_8.png"
+        }
+      },
+      "imported": false,
+      "index_structures": [],
+      "label": "te",
+      "memory": null,
+      "modified": "2026-08-23 10:31:23",
+      "network": "root",
+      "port_variable": false,
+      "tokens": [],
+      "type": "frame",
+      "units": [
+        1,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -315,6 +553,239 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_20": {
+      "IRI": "qudt:CrossSectionalArea",
+      "aliases": {
+        "matlab": "Axy",
+        "latex": "Axy",
+        "internal_code": "Axy",
+        "global_ID": "V_20"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_20",
+        "latex": "{Axy}{_{N}}"
+      },
+      "created": "2026-08-23 10:36:17",
+      "doc": "cross-sectional area in the x-y plane",
+      "equations": {
+        "E_9": {
+          "rhs": {
+            "global_ID": " V_6 O_4 V_7",
+            "latex": "{{r_x}}{_{N}} \\, . \\, {{r_y}}{_{N}}"
+          },
+          "type": "generic",
+          "doc": "cross-sectional area in the x-y plane",
+          "network": "physical",
+          "incidence_list": [
+            "V_6",
+            "V_7"
+          ],
+          "created": "2026-08-23 10:36:17",
+          "modified": "2026-08-23 10:36:17",
+          "lhs": {
+            "global_ID": "V_20",
+            "latex": "{Axy}{_{N}}"
+          },
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_9.png"
+        }
+      },
+      "imported": false,
+      "index_structures": [
+        "I_2"
+      ],
+      "label": "Axy",
+      "memory": null,
+      "modified": "2026-08-23 10:37:54",
+      "network": "physical",
+      "port_variable": false,
+      "tokens": [],
+      "type": "secondaryState",
+      "units": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_21": {
+      "IRI": "qudt:CrossSectionalArea",
+      "aliases": {
+        "matlab": "Axz",
+        "latex": "Axz",
+        "internal_code": "Axz",
+        "global_ID": "V_21"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_21",
+        "latex": "{Axz}{_{N}}"
+      },
+      "created": "2026-08-23 10:37:05",
+      "doc": "cross-sectional area in the x-z plane",
+      "equations": {
+        "E_10": {
+          "rhs": {
+            "global_ID": " V_6 O_4 V_8",
+            "latex": "{{r_x}}{_{N}} \\, . \\, {{r_z}}{_{N}}"
+          },
+          "type": "generic",
+          "doc": "cross-sectional area in the x-z plane",
+          "network": "physical",
+          "incidence_list": [
+            "V_6",
+            "V_8"
+          ],
+          "created": "2026-08-23 10:37:05",
+          "modified": "2026-08-23 10:37:05",
+          "lhs": {
+            "global_ID": "V_21",
+            "latex": "{Axz}{_{N}}"
+          },
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_10.png"
+        }
+      },
+      "imported": false,
+      "index_structures": [
+        "I_2"
+      ],
+      "label": "Axz",
+      "memory": null,
+      "modified": "2026-08-23 10:38:09",
+      "network": "physical",
+      "port_variable": false,
+      "tokens": [],
+      "type": "secondaryState",
+      "units": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_22": {
+      "IRI": "qudt:CrossSectionalArea",
+      "aliases": {
+        "matlab": "Ayz",
+        "latex": "Ayz",
+        "internal_code": "Ayz",
+        "global_ID": "V_22"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_22",
+        "latex": "{Ayz}{_{N}}"
+      },
+      "created": "2026-08-23 10:37:35",
+      "doc": "cross-sectional area in the y-z plane",
+      "equations": {
+        "E_11": {
+          "rhs": {
+            "global_ID": " V_7 O_4 V_8",
+            "latex": "{{r_y}}{_{N}} \\, . \\, {{r_z}}{_{N}}"
+          },
+          "type": "generic",
+          "doc": "cross-sectional area in the y-z plane",
+          "network": "physical",
+          "incidence_list": [
+            "V_7",
+            "V_8"
+          ],
+          "created": "2026-08-23 10:37:35",
+          "modified": "2026-08-23 10:37:35",
+          "lhs": {
+            "global_ID": "V_22",
+            "latex": "{Ayz}{_{N}}"
+          },
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_11.png"
+        }
+      },
+      "imported": false,
+      "index_structures": [
+        "I_2"
+      ],
+      "label": "Ayz",
+      "memory": null,
+      "modified": "2026-08-23 10:38:20",
+      "network": "physical",
+      "port_variable": false,
+      "tokens": [],
+      "type": "secondaryState",
+      "units": [
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_23": {
+      "IRI": "qudt:MassDensity",
+      "aliases": {
+        "matlab": "density",
+        "latex": "density",
+        "internal_code": "density",
+        "global_ID": "V_23"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_23",
+        "latex": "{density}{_{N, S}}"
+      },
+      "created": "2026-08-23 10:41:33",
+      "doc": "mass density",
+      "equations": {
+        "E_12": {
+          "rhs": {
+            "global_ID": " F_15 D_0 V_12 D_1 O_4 V_14",
+            "latex": "\\left( {physical!V}{_{N}} \\right)^{-1} \\, . \\, {macroscopic!m}{_{N, S}}"
+          },
+          "type": "generic",
+          "doc": "mass density",
+          "network": "properties",
+          "incidence_list": [
+            "V_12",
+            "V_14"
+          ],
+          "created": "2026-08-23 10:41:33",
+          "modified": "2026-08-23 10:41:33",
+          "lhs": {
+            "global_ID": "V_23",
+            "latex": "{density}{_{N, S}}"
+          },
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_12.png"
+        }
+      },
+      "imported": false,
+      "index_structures": [
+        "I_2",
+        "I_3"
+      ],
+      "label": "density",
+      "memory": null,
+      "modified": "2026-08-23 10:41:52",
+      "network": "properties",
+      "port_variable": false,
+      "tokens": [],
+      "type": "secondaryState",
+      "units": [
+        0,
+        -3,
+        0,
+        1,
         0,
         0,
         0,
@@ -467,11 +938,11 @@
       ]
     },
     "V_6": {
-      "IRI": "promo:r_x",
+      "IRI": "promo:rx",
       "aliases": {
-        "matlab": "r_x",
-        "latex": "{r_x}",
-        "internal_code": "r_x",
+        "matlab": "rx",
+        "latex": "rx",
+        "internal_code": "rx",
         "global_ID": "V_6"
       },
       "compiled_lhs": {
@@ -485,9 +956,9 @@
       "index_structures": [
         "I_2"
       ],
-      "label": "r_x",
+      "label": "rx",
       "memory": null,
-      "modified": "2026-08-20 17:07:50",
+      "modified": "2026-08-23 10:56:13",
       "network": "physical",
       "port_variable": true,
       "tokens": [],
@@ -504,11 +975,11 @@
       ]
     },
     "V_7": {
-      "IRI": "promo:r_y",
+      "IRI": "promo:ry",
       "aliases": {
-        "matlab": "r_y",
-        "latex": "{r_y}",
-        "internal_code": "r_y",
+        "matlab": "ry",
+        "latex": "ry",
+        "internal_code": "ry",
         "global_ID": "V_7"
       },
       "compiled_lhs": {
@@ -522,9 +993,9 @@
       "index_structures": [
         "I_2"
       ],
-      "label": "r_y",
+      "label": "ry",
       "memory": null,
-      "modified": "2026-08-20 17:08:00",
+      "modified": "2026-08-23 10:56:19",
       "network": "physical",
       "port_variable": true,
       "tokens": [],
@@ -541,11 +1012,11 @@
       ]
     },
     "V_8": {
-      "IRI": "promo:r_z",
+      "IRI": "promo:rz",
       "aliases": {
-        "matlab": "r_z",
-        "latex": "{r_z}",
-        "internal_code": "r_z",
+        "matlab": "rz",
+        "latex": "rz",
+        "internal_code": "rz",
         "global_ID": "V_8"
       },
       "compiled_lhs": {
@@ -559,9 +1030,9 @@
       "index_structures": [
         "I_2"
       ],
-      "label": "r_z",
+      "label": "rz",
       "memory": null,
-      "modified": "2026-08-20 17:08:09",
+      "modified": "2026-08-23 10:56:22",
       "network": "physical",
       "port_variable": true,
       "tokens": [],
@@ -763,7 +1234,7 @@
     }
   },
   "Ontology_global_IDs": {
-    "variable": 14,
-    "equation": 5
+    "variable": 23,
+    "equation": 12
   }
 }

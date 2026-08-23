@@ -1,0 +1,804 @@
+{
+  "version": "8",
+  "variables": {
+    "V_1": {
+      "IRI": "promo:value",
+      "aliases": {
+        "matlab": "value",
+        "latex": "value",
+        "internal_code": "value",
+        "global_ID": "V_1"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_1",
+        "latex": "{value}{_{}}"
+      },
+      "created": "2026-08-20 16:46:42",
+      "doc": "a numerical value",
+      "equations": {},
+      "imported": false,
+      "index_structures": [],
+      "label": "value",
+      "memory": null,
+      "modified": "2026-08-20 16:47:09",
+      "network": "root",
+      "port_variable": true,
+      "tokens": [],
+      "type": "constant",
+      "units": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_10": {
+      "IRI": "qudt:Entropy",
+      "aliases": {
+        "matlab": "S",
+        "latex": "{S}",
+        "internal_code": "S",
+        "global_ID": "V_10"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_10",
+        "latex": "{{S}}{_{N}}"
+      },
+      "created": "2026-08-20 17:03:09",
+      "doc": "entropy",
+      "equations": {},
+      "imported": false,
+      "index_structures": [
+        "I_2"
+      ],
+      "label": "S",
+      "memory": null,
+      "modified": "2026-08-20 17:08:24",
+      "network": "physical",
+      "port_variable": true,
+      "tokens": [],
+      "type": "state",
+      "units": [
+        -2,
+        2,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_11": {
+      "IRI": "qudt:MolarMass",
+      "aliases": {
+        "matlab": "n",
+        "latex": "{n}",
+        "internal_code": "n",
+        "global_ID": "V_11"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_11",
+        "latex": "{{n}}{_{N, S}}"
+      },
+      "created": "2026-08-20 17:04:19",
+      "doc": "mass - molar",
+      "equations": {},
+      "imported": true,
+      "index_structures": [
+        "I_2",
+        "I_3"
+      ],
+      "label": "n",
+      "memory": null,
+      "modified": "2026-08-20 17:08:37",
+      "network": "physical",
+      "port_variable": true,
+      "tokens": [],
+      "type": "state",
+      "units": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_12": {
+      "IRI": "promo:V",
+      "aliases": {
+        "matlab": "V",
+        "latex": "V",
+        "internal_code": "V",
+        "global_ID": "V_12"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_12",
+        "latex": "{V}{_{N}}"
+      },
+      "created": "2026-08-21 13:56:01",
+      "doc": "volume",
+      "equations": {
+        "E_4": {
+          "rhs": {
+            "global_ID": " V_6 O_4 V_7 O_4 V_8",
+            "latex": "{{r_x}}{_{N}} \\, . \\, {{r_y}}{_{N}} \\, . \\, {{r_z}}{_{N}}"
+          },
+          "type": "generic",
+          "doc": "volume",
+          "network": "physical",
+          "incidence_list": [
+            "V_6",
+            "V_7",
+            "V_8"
+          ],
+          "created": "2026-08-21 13:56:01",
+          "modified": "2026-08-21 13:56:01",
+          "lhs": {
+            "global_ID": "V_12",
+            "latex": "{V}{_{N}}"
+          },
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_4.png"
+        }
+      },
+      "imported": false,
+      "index_structures": [
+        "I_2"
+      ],
+      "label": "V",
+      "memory": null,
+      "modified": "2026-08-21 13:56:01",
+      "network": "physical",
+      "port_variable": false,
+      "tokens": [],
+      "type": "state",
+      "units": [
+        0,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_13": {
+      "IRI": "qudt:MolecularMass",
+      "aliases": {
+        "matlab": "Mm",
+        "latex": "Mm",
+        "internal_code": "Mm",
+        "global_ID": "V_13"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_13",
+        "latex": "{Mm}{_{S}}"
+      },
+      "created": "2026-08-21 15:50:37",
+      "doc": "molecular mass",
+      "equations": {},
+      "imported": true,
+      "index_structures": [
+        "I_3"
+      ],
+      "label": "Mm",
+      "memory": null,
+      "modified": "2026-08-21 15:51:09",
+      "network": "properties",
+      "port_variable": true,
+      "tokens": [],
+      "type": "constant",
+      "units": [
+        0,
+        0,
+        -1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_14": {
+      "IRI": "qudt:Mass",
+      "aliases": {
+        "matlab": "m",
+        "latex": "m",
+        "internal_code": "m",
+        "global_ID": "V_14"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_14",
+        "latex": "{m}{_{N, S}}"
+      },
+      "created": "2026-08-21 15:52:27",
+      "doc": "mass",
+      "equations": {
+        "E_5": {
+          "rhs": {
+            "global_ID": " V_13 O_4 V_11",
+            "latex": "{properties!Mm}{_{S}} \\, . \\, {physical!{n}}{_{N, S}}"
+          },
+          "type": "generic",
+          "doc": "mass",
+          "network": "macroscopic",
+          "incidence_list": [
+            "V_11",
+            "V_13"
+          ],
+          "created": "2026-08-21 15:52:27",
+          "modified": "2026-08-21 15:52:27",
+          "lhs": {
+            "global_ID": "V_14",
+            "latex": "{m}{_{N, S}}"
+          },
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_5.png"
+        }
+      },
+      "imported": false,
+      "index_structures": [
+        "I_2",
+        "I_3"
+      ],
+      "label": "m",
+      "memory": null,
+      "modified": "2026-08-22 13:00:15",
+      "network": "macroscopic",
+      "port_variable": false,
+      "tokens": [],
+      "type": "secondaryState",
+      "units": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_15": {
+      "IRI": "qudt:BoltzmannConstant",
+      "aliases": {
+        "matlab": "kb",
+        "latex": "{k^B}",
+        "internal_code": "kb",
+        "global_ID": "V_15"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_15",
+        "latex": "_new_"
+      },
+      "created": "2026-08-22 17:02:14",
+      "doc": "Bolzmann konstant",
+      "equations": {},
+      "imported": false,
+      "index_structures": [],
+      "label": "kb",
+      "memory": null,
+      "modified": "2026-08-22 17:05:56",
+      "network": "physical",
+      "port_variable": true,
+      "tokens": [],
+      "type": "constant",
+      "units": [
+        -2,
+        2,
+        0,
+        1,
+        -1,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_2": {
+      "IRI": "promo:zero",
+      "aliases": {
+        "matlab": "zero",
+        "latex": "0",
+        "internal_code": "zero",
+        "global_ID": "V_2"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_2",
+        "latex": "{0}{_{}}"
+      },
+      "created": "2026-08-20 16:48:43",
+      "doc": "a zero",
+      "equations": {
+        "E_1": {
+          "rhs": {
+            "global_ID": " O_10 D_0 V_1 D_7 V_1 D_1",
+            "latex": "\\textbf{Instantiate}({value}{_{}}, {value}{_{}})"
+          },
+          "type": "generic",
+          "doc": "a zero",
+          "network": "root",
+          "incidence_list": [
+            "V_1"
+          ],
+          "created": "2026-08-20 16:48:43",
+          "modified": "2026-08-20 16:48:43",
+          "lhs": {
+            "global_ID": "V_2",
+            "latex": "{0}{_{}}"
+          },
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_1.png"
+        }
+      },
+      "imported": false,
+      "index_structures": [],
+      "label": "zero",
+      "memory": null,
+      "modified": "2026-08-20 16:48:43",
+      "network": "root",
+      "port_variable": false,
+      "tokens": [],
+      "type": "constant",
+      "units": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_3": {
+      "IRI": "promo:one",
+      "aliases": {
+        "matlab": "one",
+        "latex": "1",
+        "internal_code": "one",
+        "global_ID": "V_3"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_3",
+        "latex": "{1}{_{}}"
+      },
+      "created": "2026-08-20 16:49:22",
+      "doc": "a one",
+      "equations": {
+        "E_2": {
+          "rhs": {
+            "global_ID": " O_10 D_0 V_1 D_7 V_1 D_1",
+            "latex": "\\textbf{Instantiate}({value}{_{}}, {value}{_{}})"
+          },
+          "type": "generic",
+          "doc": "one",
+          "network": "root",
+          "incidence_list": [
+            "V_1"
+          ],
+          "created": "2026-08-20 16:49:22",
+          "modified": "2026-08-20 16:49:22",
+          "lhs": {
+            "global_ID": "V_3",
+            "latex": "{1}{_{}}"
+          },
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_2.png"
+        }
+      },
+      "imported": false,
+      "index_structures": [],
+      "label": "one",
+      "memory": null,
+      "modified": "2026-08-20 16:49:46",
+      "network": "root",
+      "port_variable": false,
+      "tokens": [],
+      "type": "constant",
+      "units": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_4": {
+      "IRI": "promo:onehalf",
+      "aliases": {
+        "matlab": "onehalf",
+        "latex": "{0.5}",
+        "internal_code": "onehalf",
+        "global_ID": "V_4"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_4",
+        "latex": "{{0.5}}{_{}}"
+      },
+      "created": "2026-08-20 16:50:28",
+      "doc": "one half",
+      "equations": {
+        "E_3": {
+          "rhs": {
+            "global_ID": " O_10 D_0 V_1 D_7 V_1 D_1",
+            "latex": "\\textbf{Instantiate}({value}{_{}}, {value}{_{}})"
+          },
+          "type": "generic",
+          "doc": "one half",
+          "network": "root",
+          "incidence_list": [
+            "V_1"
+          ],
+          "created": "2026-08-20 16:50:28",
+          "modified": "2026-08-20 16:50:28",
+          "lhs": {
+            "global_ID": "V_4",
+            "latex": "{{0.5}}{_{}}"
+          },
+          "png_file": "/home/heinz/1_Gits/CAM13/Ontology_Repository/processes_distributed_no_interface_eqs/LaTeX/E_3.png"
+        }
+      },
+      "imported": false,
+      "index_structures": [],
+      "label": "onehalf",
+      "memory": null,
+      "modified": "2026-08-20 16:50:28",
+      "network": "root",
+      "port_variable": false,
+      "tokens": [],
+      "type": "constant",
+      "units": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_5": {
+      "IRI": "qudt:Time",
+      "aliases": {
+        "matlab": "t",
+        "latex": "t",
+        "internal_code": "t",
+        "global_ID": "V_5"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_5",
+        "latex": "{t}{_{}}"
+      },
+      "created": "2026-08-20 16:51:17",
+      "doc": "time",
+      "equations": {},
+      "imported": false,
+      "index_structures": [],
+      "label": "t",
+      "memory": null,
+      "modified": "2026-08-20 16:51:42",
+      "network": "root",
+      "port_variable": true,
+      "tokens": [],
+      "type": "frame",
+      "units": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_6": {
+      "IRI": "promo:r_x",
+      "aliases": {
+        "matlab": "r_x",
+        "latex": "{r_x}",
+        "internal_code": "r_x",
+        "global_ID": "V_6"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_6",
+        "latex": "{{r_x}}{_{N}}"
+      },
+      "created": "2026-08-20 16:53:37",
+      "doc": "x-coordinate",
+      "equations": {},
+      "imported": false,
+      "index_structures": [
+        "I_2"
+      ],
+      "label": "r_x",
+      "memory": null,
+      "modified": "2026-08-20 17:07:50",
+      "network": "physical",
+      "port_variable": true,
+      "tokens": [],
+      "type": "frame",
+      "units": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_7": {
+      "IRI": "promo:r_y",
+      "aliases": {
+        "matlab": "r_y",
+        "latex": "{r_y}",
+        "internal_code": "r_y",
+        "global_ID": "V_7"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_7",
+        "latex": "{{r_y}}{_{N}}"
+      },
+      "created": "2026-08-20 16:55:39",
+      "doc": "y-coordinate",
+      "equations": {},
+      "imported": false,
+      "index_structures": [
+        "I_2"
+      ],
+      "label": "r_y",
+      "memory": null,
+      "modified": "2026-08-20 17:08:00",
+      "network": "physical",
+      "port_variable": true,
+      "tokens": [],
+      "type": "frame",
+      "units": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_8": {
+      "IRI": "promo:r_z",
+      "aliases": {
+        "matlab": "r_z",
+        "latex": "{r_z}",
+        "internal_code": "r_z",
+        "global_ID": "V_8"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_8",
+        "latex": "{{r_z}}{_{N}}"
+      },
+      "created": "2026-08-20 16:56:08",
+      "doc": "z-coordinate",
+      "equations": {},
+      "imported": false,
+      "index_structures": [
+        "I_2"
+      ],
+      "label": "r_z",
+      "memory": null,
+      "modified": "2026-08-20 17:08:09",
+      "network": "physical",
+      "port_variable": true,
+      "tokens": [],
+      "type": "frame",
+      "units": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "V_9": {
+      "IRI": "qudt:InternalEnergy",
+      "aliases": {
+        "matlab": "U",
+        "latex": "{U}",
+        "internal_code": "U",
+        "global_ID": "V_9"
+      },
+      "compiled_lhs": {
+        "global_ID": "V_9",
+        "latex": "{{U}}{_{N}}"
+      },
+      "created": "2026-08-20 17:01:25",
+      "doc": "internal energy",
+      "equations": {},
+      "imported": false,
+      "index_structures": [
+        "I_2"
+      ],
+      "label": "U",
+      "memory": null,
+      "modified": "2026-08-20 17:08:17",
+      "network": "physical",
+      "port_variable": true,
+      "tokens": [],
+      "type": "state",
+      "units": [
+        -2,
+        2,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "indices": {
+    "I_1": {
+      "type": "index",
+      "label": "arc",
+      "network": [
+        "root",
+        "physical",
+        "macroscopic",
+        "solid",
+        "fluid",
+        "liquid",
+        "gas",
+        "energy",
+        "microscopic",
+        "reactions",
+        "properties",
+        "control",
+        "info_processing"
+      ],
+      "aliases": {
+        "matlab": "A",
+        "latex": "A",
+        "internal_code": "A",
+        "global_ID": "I_1"
+      },
+      "tokens": null,
+      "IRI": "promo:arc"
+    },
+    "I_2": {
+      "type": "index",
+      "label": "node",
+      "network": [
+        "root",
+        "physical",
+        "macroscopic",
+        "solid",
+        "fluid",
+        "liquid",
+        "gas",
+        "energy",
+        "microscopic",
+        "reactions",
+        "properties",
+        "control",
+        "info_processing"
+      ],
+      "aliases": {
+        "matlab": "N",
+        "latex": "N",
+        "internal_code": "N",
+        "global_ID": "I_2"
+      },
+      "tokens": null,
+      "IRI": "promo:node"
+    },
+    "I_3": {
+      "type": "index",
+      "label": "species",
+      "network": [
+        "physical",
+        "macroscopic",
+        "solid",
+        "fluid",
+        "liquid",
+        "gas",
+        "energy",
+        "microscopic",
+        "reactions",
+        "properties"
+      ],
+      "aliases": {
+        "matlab": "S",
+        "latex": "S",
+        "internal_code": "S",
+        "global_ID": "I_3"
+      },
+      "tokens": "mass",
+      "IRI": "promo:species"
+    },
+    "I_4": {
+      "type": "index",
+      "label": "species_conversion",
+      "network": [
+        "physical",
+        "macroscopic",
+        "solid",
+        "fluid",
+        "liquid",
+        "gas",
+        "energy",
+        "microscopic",
+        "reactions",
+        "properties"
+      ],
+      "aliases": {
+        "matlab": "CS",
+        "latex": "CS",
+        "internal_code": "CS",
+        "global_ID": 4
+      },
+      "tokens": {
+        "instances": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "W"
+        ],
+        "conversions": [
+          {
+            "reactants": [
+              "A"
+            ],
+            "products": [
+              "B"
+            ]
+          },
+          {
+            "reactants": [
+              "A",
+              "B"
+            ],
+            "products": [
+              "C",
+              "D"
+            ]
+          }
+        ]
+      },
+      "IRI": "promo:species_conversion"
+    },
+    "I_5": {
+      "type": "index",
+      "label": "D",
+      "network": [
+        "control"
+      ],
+      "aliases": {
+        "matlab": "D",
+        "latex": "D",
+        "internal_code": "D",
+        "global_ID": "I_5"
+      },
+      "tokens": null,
+      "IRI": "promo:D"
+    }
+  },
+  "Ontology_global_IDs": {
+    "variable": 15,
+    "equation": 5
+  }
+}

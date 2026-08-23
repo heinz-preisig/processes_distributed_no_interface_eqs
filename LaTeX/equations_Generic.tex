@@ -25,12 +25,40 @@ no & equation &documentation &layer \\\hline\hline
     \begin{lay}one half\end{lay} &
     \begin{lay}root\end{lay} \\
         \hyperlink{"v:12"}{ 4 }\hypertarget{"e:4"}{  } &
-    \begin{eq}{V}{_{N}} := {{r_x}}{_{N}} \, . \, {{r_y}}{_{N}} \, . \, {{r_z}}{_{N}}\end{eq} &
+    \begin{eq}{V}{_{N}} := {rx}{_{N}} \, . \, {ry}{_{N}} \, . \, {rz}{_{N}}\end{eq} &
     \begin{lay}volume\end{lay} &
     \begin{lay}physical\end{lay} \\
         \hyperlink{"v:14"}{ 5 }\hypertarget{"e:5"}{  } &
     \begin{eq}{m}{_{N, S}} := {properties!Mm}{_{S}} \, . \, {physical!{n}}{_{N, S}}\end{eq} &
     \begin{lay}mass\end{lay} &
     \begin{lay}macroscopic\end{lay} \\
+        \hyperlink{"v:17"}{ 6 }\hypertarget{"e:6"}{  } &
+    \begin{eq}{R}{_{}} := {Avo}{_{}} \, . \, {{k^B}}{_{}}\end{eq} &
+    \begin{lay}Gas constant\end{lay} &
+    \begin{lay}physical\end{lay} \\
+        \hyperlink{"v:18"}{ 7 }\hypertarget{"e:7"}{  } &
+    \begin{eq}{t0}{_{}} := \textbf{Instantiate}({t}{_{}}, {value}{_{}})\end{eq} &
+    \begin{lay}\end{lay} &
+    \begin{lay}root\end{lay} \\
+        \hyperlink{"v:19"}{ 8 }\hypertarget{"e:8"}{  } &
+    \begin{eq}{te}{_{}} := \textbf{Instantiate}({t}{_{}}, {value}{_{}})\end{eq} &
+    \begin{lay}end time\end{lay} &
+    \begin{lay}root\end{lay} \\
+        \hyperlink{"v:20"}{ 9 }\hypertarget{"e:9"}{  } &
+    \begin{eq}{Axy}{_{N}} := {rx}{_{N}} \, . \, {ry}{_{N}}\end{eq} &
+    \begin{lay}cross-sectional area in the x-y plane\end{lay} &
+    \begin{lay}physical\end{lay} \\
+        \hyperlink{"v:21"}{ 10 }\hypertarget{"e:10"}{  } &
+    \begin{eq}{Axz}{_{N}} := {rx}{_{N}} \, . \, {rz}{_{N}}\end{eq} &
+    \begin{lay}cross-sectional area in the x-z plane\end{lay} &
+    \begin{lay}physical\end{lay} \\
+        \hyperlink{"v:22"}{ 11 }\hypertarget{"e:11"}{  } &
+    \begin{eq}{Ayz}{_{N}} := {ry}{_{N}} \, . \, {rz}{_{N}}\end{eq} &
+    \begin{lay}cross-sectional area in the y-z plane\end{lay} &
+    \begin{lay}physical\end{lay} \\
+        \hyperlink{"v:23"}{ 12 }\hypertarget{"e:12"}{  } &
+    \begin{eq}{density}{_{N, S}} := \left( {physical!V}{_{N}} \right)^{-1} \, . \, {macroscopic!m}{_{N, S}}\end{eq} &
+    \begin{lay}mass density\end{lay} &
+    \begin{lay}properties\end{lay} \\
 \hline
 \end{longtable}

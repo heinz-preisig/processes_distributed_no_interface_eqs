@@ -9,7 +9,9 @@ rankdir=LR;
 subgraph cluster_info_processing___frame {
 label=frame;
 rankdir=LR;
-V_5 [fillcolor=grey, fontsize=12, label=t, penwidth=3, style=filled];
+V_18 [fillcolor=lightcyan, fontsize=12, label=t0, penwidth=3, style=filled];
+V_19 [fillcolor=lightcyan, fontsize=12, label=te, penwidth=3, style=filled];
+V_5 [fillcolor=lightcyan, fontsize=12, label=t, penwidth=3, style=filled];
 }
 
 subgraph cluster_info_processing___state {
@@ -20,10 +22,10 @@ rankdir=LR;
 subgraph cluster_info_processing___constant {
 label=constant;
 rankdir=LR;
-V_1 [fillcolor=tan, fontsize=12, label=value, penwidth=3, style=filled];
-V_2 [fillcolor=tan, fontsize=12, label=zero, penwidth=3, style=filled];
-V_3 [fillcolor=tan, fontsize=12, label=one, penwidth=3, style=filled];
-V_4 [fillcolor=tan, fontsize=12, label=onehalf, penwidth=3, style=filled];
+V_1 [fillcolor=lightcyan3, fontsize=12, label=value, penwidth=3, style=filled];
+V_2 [fillcolor=lightcyan3, fontsize=12, label=zero, penwidth=3, style=filled];
+V_3 [fillcolor=lightcyan3, fontsize=12, label=one, penwidth=3, style=filled];
+V_4 [fillcolor=lightcyan3, fontsize=12, label=onehalf, penwidth=3, style=filled];
 }
 
 }

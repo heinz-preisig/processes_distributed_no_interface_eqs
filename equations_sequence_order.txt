@@ -41,3 +41,59 @@ Equation ID: E_5
   RHS LaTeX: {properties!Mm}{_{S}} \, . \, {physical!{n}}{_{N, S}}
   Documentation: mass
 
+Equation ID: E_6
+  Type: generic
+  Network: physical
+  RHS Global ID:  V_16 O_4 V_15
+  RHS Internal: N/A
+  RHS LaTeX: {Avo}{_{}} \, . \, {{k^B}}{_{}}
+  Documentation: Gas constant
+
+Equation ID: E_7
+  Type: generic
+  Network: root
+  RHS Global ID:  O_10 D_0 V_5 D_7 V_1 D_1
+  RHS Internal: N/A
+  RHS LaTeX: \textbf{Instantiate}({t}{_{}}, {value}{_{}})
+  Documentation: 
+
+Equation ID: E_8
+  Type: generic
+  Network: root
+  RHS Global ID:  O_10 D_0 V_5 D_7 V_1 D_1
+  RHS Internal: N/A
+  RHS LaTeX: \textbf{Instantiate}({t}{_{}}, {value}{_{}})
+  Documentation: end time
+
+Equation ID: E_9
+  Type: generic
+  Network: physical
+  RHS Global ID:  V_6 O_4 V_7
+  RHS Internal: N/A
+  RHS LaTeX: {{r_x}}{_{N}} \, . \, {{r_y}}{_{N}}
+  Documentation: cross-sectional area in the x-y plane
+
+Equation ID: E_10
+  Type: generic
+  Network: physical
+  RHS Global ID:  V_6 O_4 V_8
+  RHS Internal: N/A
+  RHS LaTeX: {{r_x}}{_{N}} \, . \, {{r_z}}{_{N}}
+  Documentation: cross-sectional area in the x-z plane
+
+Equation ID: E_11
+  Type: generic
+  Network: physical
+  RHS Global ID:  V_7 O_4 V_8
+  RHS Internal: N/A
+  RHS LaTeX: {{r_y}}{_{N}} \, . \, {{r_z}}{_{N}}
+  Documentation: cross-sectional area in the y-z plane
+
+Equation ID: E_12
+  Type: generic
+  Network: properties
+  RHS Global ID:  F_15 D_0 V_12 D_1 O_4 V_14
+  RHS Internal: N/A
+  RHS LaTeX: \left( {physical!V}{_{N}} \right)^{-1} \, . \, {macroscopic!m}{_{N, S}}
+  Documentation: mass density
+
